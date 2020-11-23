@@ -1,0 +1,67 @@
+Carriage  Revised: Monday, June 29, 2015
+APD04.00.200          Revision: 2
+
+
+
+
+
+
+
+Bill Of Materials           July 6,2015      21:25:00	Page1
+
+Item	Quantity	Reference	Part	PartManufacture	Description
+______________________________________________
+
+1	1	BQ1	8.000MHz	Murata	CSTCE8M00G15L, SMD Crystal
+2	4	C1,C2,C3,C4	0.1	Kemet	C0603C104M3RAC  SMD Ceramic Capacitor, X7R 0.1uF 16V, 20%, 0603
+3	1	C5	4.7	Kemet	T491A475M025AT SMD Tantalum Capacitor,25V,4.7uF,Tol.20%,Case A (3216-18 EIA)
+4	16	C6,C10,C12,C13,C16,C18,	0.1	Cal-Chip Electronics	GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603
+		C21,C23,C26,C28,C31,C34,
+		C36,C39,C43,C47
+5	5	C7,C8,C9,C11,C44	6.8	Kemet	T491B685K010AT SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B
+6	6	C14,C19,C24,C29,C32,C37	1000	Kemet	C0603C102J5GAC SMT Ceramic Capacitor,NP0,50V,1000pF,Tol.5%, Case 0603
+7	6	C15,C20,C25,C30,C33,C38	2.2	TDK	C2012X7R1E225K Chip Ceramic Capacitor, Low ESR, 25V,  2.2uF, 10%,  0805
+8	6	C17,C22,C27,C35,C40,C48	120	Kemet	C0603C121J5GAC SMD Ceramic Capacitor,NP0, 50V,120pF,Tol.5%, Case 0603
+9	2	C41,C45	0,22	Kemet	C1206C224M5RAC, SMD Ceramic Capacitor, 50V, X7R, Tol. 20%, case 1206
+10	2	C42,C46	0.022	Kemet	25V, X7R, Tol.20%, Case 0805; C0805C223M3RAC
+11	7	DA1,DA2,DA3,DA4,DA5,DA6,	TLV2262CD	TI	CMOS R-to-R Dual Operational Amplifier, Case SO-8
+		DA7
+12	2	DA8,DA9	BD6210F	ROHM	H-Bridge Driver, 0.5A, 7V, case SOP-8
+13	1	DD1	STM32F070RBT6	ST Microelectronics	Cortex-M0 Microcontroller, 128KB Flash, LQFP-64 Package
+14	1	DD2	SN65HVD75DGKR	TI	SN65HVD75DGKR ,EIA RS-485 Transceiver, up to 20Mbps and 100m, VSSOP-8
+15	1	R1	10K	Chip Tech	CR0603J103T1LF, 10K 1/10W, 5%, 0603, Res SMT
+16	1	R2	43K	Chip Tech	CR0603J433T1LF, 1/10W,43K,Tol.5%,Case 0603
+17	2	R3,R77	51K	ROHM	MCR10EZPJ513 SMD Thick Film Resistor 0.125W,51K,Tol.5%,Case 0805
+18	15	R4,R5,R6,R7,R10,R11,R28,	22K	Chip Technologies	CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603
+		R34,R40,R46,R52,R58,R62,
+		R68,R74
+19	9	R8,R9,R12,R25,R31,R37,	330	ROHM	MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603
+		R43,R49,R55
+20	2	R13,R14	27	ROHM	MCR03EZPFX27R0, 27R 1/10W,Tol.5%,Case 0603
+21	1	R15	120	ROHM	MCR10EZHJ121 SMD Thick Film Resistor 0.125W Tol.5% Case 0805
+22	4	R16,R17,R59,R60	620	Chip Technologies	CR0805J621T1LF Chip Thick Film Resistor 0.125W,620ohm,Tol.5%,Case  0805
+23	16	R18,R19,R20,R21,R23,R24,	10K	Chip Technologies	CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603
+		R29,R30,R35,R36,R41,R42,
+		R47,R48,R53,R54
+24	6	R26,R32,R38,R44,R50,R56	39K	Chip Technologies	CR0603J393T1LF Chip Thick Film Resistor 0.1W,39K,Tol.5%,Case 0603
+25	6	R27,R33,R39,R45,R51,R57	2.7K	Chip Technologies	CR0603J272T1LF Chip Thick Film Resistor 0.1W,2.7K,Tol.5%,Case 0603
+26	3	R61,R67,R73	2.2K	Chip Technologies	CR0603J222T1LF Chip Thick Film Resistor 0.1W,2.2K,Tol.5%,Case 0603
+27	3	R63,R69,R75	43	ROHM	MCR18ERTJ430 SMD Thick Film Resistor 0.25W,43ohm,Tol.5%,Case 1206
+28	3	R64,R70,R76	27	ROHM	MCR10ERTJ270 SMD Thick Film Resistor 0.125W,27ohm,Tol.5%,Case 0805
+29	2	R65,R71	10K	ROHM	MCR10EZHJ103 SMD Thick Film Resistor 0.125W,10K,Tol.5%,Case 0805
+30	2	R66,R72	100K	ROHM	MCR10EZHJ103 SMD Thick Film Resistor 0.125W,100K,Tol.5%,Case 0805
+31	1	R78	22	ROHM	MCR03EZPFX27R0, 27R 1/10W,Tol.5%,Case 0603
+32	3	VD1,VD2,VD3	APA3010SF4C	Kingdright	3.0mmx1.0mm, Right Angle Infrared Diod
+33	3	VE1,VE2,VE3	KRB031	Kingbright	PCB Type Photointerrupter, 0.5mm width aperture
+34	1	VE4	OPB620	Optek	Slotted Photointerrupter, 0.06" Aperture
+35	2	VT1,VT2	MMUN2233LT1G	ON Semiconductors	Bias Resistor NPN Transistor, 4K7/47K,  Case SOT23
+36	3	VT3,VT4,VT5	BC817-40LT1G	ON Semiconductors	45V NPN Small Signal Transistor, hFE(min) 250, SOT-23
+37	1	X1	FH12-10S-0.5SH	Hirose Electric	0.5mm Pitch Connectors for FPC/FFC, 10pins.
+38	2	X2,X3	DF3D-3P-2H	Hirose Electric	2mm Pitch Connector, 3 pins.
+39	1	X4	DF3D-2P-2H	Hirose Electric	2mm Pitch Connector, 2 pins.
+40	1	X5	087758-0816	Molex	CONN HEADER 8POS 2MM VERT
+41	1	X6	10-08-1041	Molex	KK@ Header, Vertical, Round Pin, 4 Circuits.
+42	1	X7	FH12A-20S-0.5SH	Hirose Electric	0.5mm Pitch Connectors for FPC/FFC, 20pins.
+43	1	X8	FH12A-10S-0.5SH	Hirose Electric	0.5mm Pitch Connectors for FPC/FFC, 10pins.
+44	2	X9,X10	FH12-30S-0.5SH	Hirose Electric	0.5mm Pitch, Strengthed Lock Type, SMT Horizontal Mounting Connector for FPC/FFC, 30 Contacts
+45	1	Z1	NFM41PC204F1H3L	Murata	Chip Filter,Case 1806

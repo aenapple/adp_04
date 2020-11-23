@@ -1,0 +1,28 @@
+% Carriage                                      Revised: Wednesday, July 08, 2015
+% APD04.03.940                                  Revision: 0.1
+% 
+% 
+% 
+% 
+% 
+BOARD = ORCAD.PCB;
+
+PARTS
+QSB34GR         = VD1,   % QSB34GR
+                  VD2,   % QSB34GR
+                  VD3,   % QSB34GR
+                  VD4,   % QSB34GR
+                  VD5,   % QSB34GR
+                  VD6;   % QSB34GR
+FH12-10S-0.5SH  = X1;   % FH12-10S-0.5SH
+
+NETS
+
+N15911409  = VD6/1 VD5/1 VD4/1 VD3/1
+            VD1/1 VD2/1 X1/1 X1/8 ;
+N15911539  = X1/2 VD6/2 ;
+N15911560  = VD5/2 X1/3 ;
+N15911586  = VD4/2 X1/4 ;
+N15911615  = VD3/2 X1/5 ;
+N15911647  = VD2/2 X1/6 ;
+N15911682  = VD1/2 X1/7 ;

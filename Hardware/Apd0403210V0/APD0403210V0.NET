@@ -1,0 +1,20 @@
+% Carriage                                      Revised: Sunday, June 21, 2015
+% APD04.03.210                                  Revision: 0
+% 
+% 
+% 
+% 
+% 
+BOARD = ORCAD.PCB;
+
+PARTS
+SOP-8           = VE1;   % OPB822
+10-08-1041      = X1;   % 10-08-1041
+
+NETS
+
+N16016938  = X1/2 VE1/8 ;
+N16016966  = VE1/3 X1/1 VE1/5 VE1/1 ;
+N16017263  = VE1/6 VE1/7 ;
+N16016960  = VE1/2 X1/4 ;
+N16016954  = X1/3 VE1/4 ;

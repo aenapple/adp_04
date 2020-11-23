@@ -1,0 +1,39 @@
+Carriage  Revised: Sunday, June 21, 2015
+APD04.00.500          Revision: 2
+
+
+
+
+
+
+
+Bill Of Materials           June 22,2015      2:19:21	Page1
+
+Item	Quantity	Reference	Part	Manufacturer	Description
+______________________________________________
+
+1	1	BQ1	12MHz	FOX	Case HC49S ;20pF; HC49SDLF/120-20.
+2	2	C1,C2	22	AVX	08051A220JAT050M, SMD Ceramic Capacitor,NP0,50V,22pF,Tol.5%, Case 0805
+3	4	C3,C8,C9,C10	0.1	Kemet	C0603C104M3RAC  SMD Ceramic Capacitor, X7R 0.1uF 16V, 20%, 0603
+4	2	C4,C11	4.7	Kemet	T491A475M025AT SMD Tantalum Capacitor,25V,4.7uF,Tol.20%,Case A (3216-18 EIA)
+5	2	C5,C6	2.2	TDK	C2012X7R1E225K Chip Ceramic Capacitor, Low ESR, 25V,  2.2uF, 10%,  0805
+6	3	C7,C12,C17	0.1	Cal-Chip Electronics	GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603
+7	3	C13,C14,C15	4700	AVX	12065A472JAT050M SMD Ceramic Capacitor,NP0,50V,4700pF,Tol.5%,Case 1206
+8	1	C16	0.22	Kemet	C1206C224M5RAC-TU SMD Ceramic Capacitor 50V X7R 0.22uF Tol. 20% Case 1206
+9	1	C18	6.8	Kemet	T491B685K010AT SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B
+10	4	C19,C20,C21,C22	330	Kemet	C0805C331J5GAC SMD Ceramic Capacitor,NP0,50V,330pF,Tol.5%, Case 0805
+11	1	DA1	LM2733X	TI	LM2733XMFX,  Boost Converters With 40V Internal FET Switch, 1.6 MHz, SOT-23-5
+12	1	DA2	TPA721DR	TI	TPA721DR, 700-mW MONO LOW-VOLTAGE AUDIO POWER AMPLIFIER, SOIC-8
+13	1	DD1	FT800	FTDI	Embedded Video Engine, Package VQFN-48, 7x7mm
+14	1	DD2	74V1G125STR	ST	Single Gate Bus Buffer, SOT-23-5L Package.
+15	1	LS1	AST-01508MR-R	Projects Unlimited	Speaker transducer, AST-01508MR-R
+16	1	L1	22uH	Coilcraft	DO2010-223MLB, SMT Power Inductor, 2x2x1 mm, 22uH, 0.3A
+17	3	R1,R10,R11	10K	Chip Technologies	CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603
+18	2	R2,R6	36	ROHM	MCR10ERTJ360 Chip Thick Film Resistor 0.125W, 36ohm,Tol.5%,Case 0805
+19	3	R3,R4,R5	22K	Chip Technologies	CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603
+20	3	R7,R8,R9	1K	ROHM	MCR10EZHJ102 SMD Thick Film Resistor 0.125W Tol.5% Case 0805
+21	1	VD1	BAS40-05	Diodes	BAS40-05, Schottky diode array, Common catode, 40V, 0.2A, Case SOT-23
+22	1	VD2	BZX84C24LT1	On Semiconductor	BZX84C24LT1, Zener diod, 24V, SOT-23
+23	1	X1	FH12-12S-0.5SH	Hirose Electric	0.5mm Pitch Horizontal Mounting FFC/FPC Connector, 12 Contacts.
+24	1	X2	FH12-40S-0.5SH(55)	Hirose Electric	0.5mm Pitch Horizontal Mounting FFC/FPC Connector, Gold Plated, Bottom Contact, 40 Contacts
+25	1	Z1	NFM41PC204F1H3L	Murata	Chip Filter,Case 1806

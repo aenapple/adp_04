@@ -1,0 +1,354 @@
+% MAIN BOARD                                    Revised: Saturday, June 27, 2015
+% APD04.00.100                                  Revision: 4
+% 
+% 
+% 
+% 
+% 
+BOARD = ORCAD.PCB;
+
+PARTS
+8.000MHz        = BQ1;   % 8.000MHz
+ABS10           = BQ2;   % 32.768KGz
+4700            = C1;   % 4700
+4.7             = C10;   % 4.7
+0.1             = C11,   % 0.1
+                  C12,   % 0.1
+                  C13;   % 0.1
+4.7             = C14;   % 4.7
+6.8             = C15;   % 6.8
+0.1             = C16;   % 0.1
+4.7             = C17;   % 4.7
+4700            = C18;   % 4700
+0.1             = C19,   % 0.1
+                  C2,   % 0.1
+                  C20;   % 0.1
+Case B          = C21;   % 6.8
+0805            = C22,   % 0.1
+                  C23;   % 0.1
+Case D          = C24;   % 68.0
+0805            = C25,   % 2.2
+                  C26,   % 2.2
+                  C27;   % 0.047
+4700            = C28;   % 4700
+0805            = C29,   % 0.047
+                  C3;   % 2.2
+4700            = C30,   % 4700
+                  C31;   % 4700
+0805            = C32,   % 0.1
+                  C33,   % 0.1
+                  C34,   % 2.2
+                  C35;   % 2.2
+Case B          = C36,   % 100.0
+                  C37;   % 100.0
+4.7             = C38;   % 4.7
+4700            = C39;   % 4700
+0805            = C4;   % 2.2
+4700            = C40,   % 4700
+                  C41,   % 4700
+                  C42,   % 4700
+                  C43,   % 4700
+                  C44;   % 4700
+Case B          = C45;   % 100.0
+0805            = C46;   % 0.1
+Case B          = C47;   % 100.0
+0805            = C48;   % 0.1
+0.1             = C49,   % 0.1
+                  C5;   % 0.1
+4.7             = C50;   % 4.7
+0.1             = C51,   % 0.1
+                  C52;   % 0.1
+15pF            = C6,   % 15pF
+                  C7,   % 15pF
+                  C8,   % 15pF
+                  C9;   % 15pF
+STMPS2151STR    = DA1;   % STMPS2151STR
+SOT143B         = DA2;   % PUSBM5V5X4-TL
+TPS715A33DRBR   = DA3;   % TPS715A33DRBR
+TSSOP-24        = DA4;   % LM2717MT
+SOP-8           = DA5,   % BD6210F
+                  DA6;   % BD6210F
+HC-05/HM11      = DD1;   % HC-05/HM11
+SO8W            = DD2;   % M25P32
+SN65HVD75DGKR   = DD3;   % SN65HVD75DGKR
+STM32F401VCT6   = DD4;   % STM32F401VCT6
+MOS6020-223ML   = L1,   % MOS6020-223ML
+                  L2;   % MOS6020-223ML
+22K             = R1;   % 22K
+22              = R10;   % 22
+0R              = R11;   % 0R
+470             = R12;   % 470
+22K             = R13;   % 22K
+43K             = R14;   % 43K
+0805            = R15,   % 51K
+                  R16;   % 51K
+10K             = R17;   % 10K
+0805            = R18;   % 51K
+10K             = R19;   % 10K
+22K             = R2;   % 22K
+470             = R20;   % 470
+27              = R21,   % 27
+                  R22;   % 27
+120             = R23;   % 120
+0805            = R24,   % 31.6K
+                  R25;   % 10.5K
+10K             = R26,   % 10K
+                  R27,   % 10K
+                  R28;   % 10K
+22K             = R29,   % 22K
+                  R3;   % 22K
+0805            = R30,   % 93.1K
+                  R31;   % 31.6K
+10K             = R32;   % 10K
+22              = R33;   % 22
+10K             = R34;   % 10K
+22K             = R35;   % 22K
+330             = R36;   % 330
+22K             = R37,   % 22K
+                  R38;   % 22K
+330             = R39;   % 330
+22K             = R4,   % 22K
+                  R40;   % 22K
+330             = R41;   % 330
+22K             = R42,   % 22K
+                  R43;   % 22K
+0805            = R44;   % 51K
+470             = R45,   % 470
+                  R46;   % 470
+22K             = R5;   % 22K
+22              = R6,   % 22
+                  R7,   % 22
+                  R8,   % 22
+                  R9;   % 22
+FSM4JSMA        = SW1;   % FSM4JSMA
+FSMRA4J         = SW2;   % FSMRA4J
+0603            = VD1;   % APHHS1005SURCK
+SOD-123         = VD2,   % MBR130T3G
+                  VD3,   % MBR130T3G
+                  VD4,   % MBR130T3G
+                  VD5;   % MBR130T3G
+0603            = VD6,   % APHHS1005MGCK
+                  VD7;   % APHHS1005QBC/D
+6x4             = VE1,   % OPB620
+                  VE2,   % OPB620
+                  VE3,   % OPB620
+                  VE4,   % EE-SX1109
+                  VE5,   % OPB620
+                  VE6;   % EE-SX1109
+SOT23           = VT1,   % MMUN2233LT1G
+                  VT2,   % MMUN2233LT1G
+                  VT3,   % MMUN2233LT1G
+                  VT4,   % MMUN2233LT1G
+                  VT5,   % MMUN2233LT1G
+                  VT6;   % MMUN2233LT1G
+FH12-12S-0.5SH  = X1;   % FH12-12S-0.5SH
+DF3DZ-2P-2H(21) = X10;   % DF3DZ-2P-2H(21)
+DF3DZ-4P-2H(21) = X11;   % DF3DZ-4P-2H(21)
+PJ-057A         = X12;   % PJ-057A
+FH12-30S-0.5SH  = X13;   % FH12-30S-0.5SH
+FH12-10S-0.5SH  = X2;   % FH12-10S-0.5SH
+DM1-AA-SF-PEJ   = X3;   % DM1-AA-SF-PEJ
+ZX62D-AB-5P8    = X4;   % ZX62D-AB-5P8
+087758-0816     = X5;   % 087758-0816
+BC2032-E1       = X6;   % BC2032-E1
+FH12-30S-0.5SH  = X7;   % FH12-30S-0.5SH
+DF3DZ-3P-2H(21) = X8;   % DF3DZ-3P-2H(21)
+DF3DZ-2P-2H(21) = X9;   % DF3DZ-2P-2H(21)
+BNX022-01L      = Z1;   % BNX022-01L
+NFM41PC204F1H3L = Z2;   % NFM41PC204F1H3L
+
+NETS
+
+MT1R  = X7/18 DD4/62 DA6/5 ;
+MT0F  = DD4/59 DA5/4 X7/15 ;
+ON-OFF-3V3  = R18/1 SW2/1 DD4/77 ;
+PIO0  = DD1/23 DD4/1 ;
+PIO2  = DD1/25 DD4/3 ;
+PIO8  = DD1/31 DD4/18 ;
+PIO11  = DD4/25 DD1/34 ;
+PIO4  = DD4/5 DD1/27 ;
+PIO1  = DD1/24 DD4/2 ;
+PIO9  = DD4/23 DD1/32 ;
+PIO6  = DD1/29 DD4/16 ;
+PIO3  = DD1/26 DD4/4 ;
+N16542834  = DD4/6 X6/+ ;
+PIO5  = DD1/28 DD4/7 ;
+PIO7  = DD4/17 DD1/30 ;
+PIO10  = DD1/33 DD4/24 ;
+RESET-N  = R44/2 DD1/11 DD4/88 ;
+N15915956  = X4/1 DA2/6 R33/2 DA1/1
+            C4/1 C3/1 ;
+USART2-CTS  = DD4/84 DD1/4 ;
+USART2-RTS  = DD1/3 DD4/85 ;
+USART2-TX  = DD1/2 X7/28 DD4/86 ;
+USART2-RX  = X7/27 DD4/87 DD1/1 ;
++3V3  = X5/1 ;
+N16358177  = DD4/12 BQ1/1 ;
+N17286099  = R20/2 VD1/A ;
+N16358217  = DD4/13 BQ1/3 ;
+N17286089  = VT2/C VD1/K ;
+N17292405  = R45/2 VD6/A ;
+N17292391  = VT5/C VD6/K ;
+MODE  = X1/7 X7/11 DD4/56 ;
+INT-N  = X1/8 DD4/57 X7/14 ;
+MISO-SDA  = DD4/96 X1/2 DD4/53 X7/7 ;
+CS-SA1  = X7/10 DD4/51 X1/4 ;
+N17293390  = R46/2 VD7/A ;
+MOSI-SA0  = DD4/54 X7/8 X1/3 ;
+N17293376  = VT6/C VD7/K ;
+SCLK-SCL  = DD4/52 DD4/95 X7/9 X1/1 ;
+SA2  = X1/5 DD4/55 X7/13 ;
+RED-LED  = DD4/45 VT2/B ;
+PD-N  = X1/9 X7/12 DD4/58 ;
+GREEN-LED  = DD4/97 VT5/B ;
+BLUE-LED  = DD4/98 VT6/B ;
+N15943361  = VE6/A VE4/K ;
+N15943589  = VE5/K R39/1 ;
+N15943057  = R39/2 VT3/C R36/2 ;
+N15943265  = VE2/A VE1/K ;
+USART1-RX  = X7/23 DD4/93 DD3/1 R21/2 ;
+RS485-RE  = X7/19 DD3/2 DD4/90 ;
+N15943485  = VT4/C R41/2 ;
+N15943249  = VE5/A VE3/K ;
+USART1-TX  = R22/2 DD4/92 DD3/4 X7/22 ;
+RS485-DE  = X7/20 DD3/3 DD4/89 ;
+N15943793  = R41/1 VE6/K ;
+N159436891  = VE2/K R36/1 ;
+DRUM-HOME1  = DD4/43 X13/28 VE1/E R35/2
+            C39/1 ;
+DRUM-HOME2  = DD4/44 X13/27 C40/1 VE2/E
+            R37/2 ;
+DRUM-OPT  = DD4/40 X13/24 VE3/E C41/1
+            R38/2 ;
+CAR-HOME-R  = X13/23 C42/1 VE5/E R40/2
+            DD4/39 ;
+DRUM-LOCK1  = DD4/42 VE6/E C44/1 R43/2
+            X13/25 ;
+DRUM-LOCK0  = R42/2 VE4/E C43/1 DD4/41
+            X13/26 ;
+OPT-ON  = VT1/B VT3/B VT4/B DD4/47 ;
+N15924577  = C28/1 R27/2 ;
+N15924617  = DA4/20 C27/2 ;
+N15924621  = DA4/18 C29/2 ;
+N15924473  = C32/1 DA4/22 ;
+N15924831  = L2/1 VD5/CATHODE DA4/13 C33/2 ;
+N15924493  = DA4/24 C32/2 VD4/CATHODE L1/1 ;
+N15924629  = DA4/6 C31/2 ;
+N15924981  = C33/1 DA4/16 ;
+N15924609  = DA4/19 R29/1 ;
+N15924665  = R30/1 R31/2 DA4/8 ;
+N15924625  = DA4/5 C28/2 ;
+N15924613  = DA4/7 C30/2 ;
+N15924605  = C30/1 R28/2 ;
+POWER-5V-ON  = R26/1 DA4/17 DD4/38 X7/25 ;
+POWER-3V-ON  = X7/24 DD4/37 DA4/21 R32/2 ;
+N15912944  = R7/2 X3/10 C1/1 ;
+GND  = C46/2 C8/1 C9/1 R25/1
+            C45/2 C47/2 C48/2 C21/2
+            X4/5 C7/1 VT3/E R31/1
+            C36/2 C35/1 C37/2 R42/1
+            X3/12 C23/2 R38/1 R43/1
+            C34/1 R35/1 R34/2 R37/1
+            VT4/E R40/1 R13/1 C6/1
+            C20/2 DD1/21 DA4/1 Z1/4
+            Z1/5 C27/1 C29/1 C42/2
+            C3/2 DA4/10 C41/2 SW2/2
+            VT1/E R29/2 DA5/8 VD4/ANODE
+            C31/1 R28/1 C40/2 C25/1
+            X8/3 C26/1 R32/1 R14/1
+            X5/7 VT2/E DA3/2 DA3/3
+            DA3/4 R26/2 C52/2 C51/2
+            C50/2 DD1/22 X3/6 R16/1
+            X13/30 X13/5 DD2/4 BQ1/2
+            C2/2 C43/2 R27/1 C1/2
+            C5/1 Z1/6 C49/2 SW1/2
+            DA4/9 DA4/3 DA4/12 DA4/11
+            DA4/2 R11/1 X6/- C18/2
+            DA3/6 DA3/5 DA3/7 C39/2
+            X1/6 X1/10 DD4/10 DD4/20
+            C10/1 DD4/49 DD4/27 C11/2
+            C38/1 C14/2 DD4/99 DD4/74
+            C13/2 C12/2 X2/6 X2/10
+            X2/3 VT6/E X3/3 C4/2
+            VD5/ANODE VT5/E DD1/14 DD1/13
+            DA1/2 C24/2 Z2/3 C44/2
+            DA2/0 X7/5 X7/30 C15/2
+            DA6/8 C16/2 C17/1 ;
+3V3  = X2/5 VE2/C VE4/C R20/1
+            VE1/C X2/4 R1/2 R2/2
+            R3/2 R4/2 VE5/C C19/1
+            DD3/8 R46/1 C50/1 C52/1
+            DD1/12 C51/1 R44/1 R5/2
+            X7/6 X7/29 X13/29 X13/6
+            C20/1 C21/1 DD2/8 DD2/7
+            R45/1 R19/2 DD2/3 VE3/C
+            X11/3 X3/4 C2/1 DA4/4
+            C36/1 L1/2 C34/2 X1/12
+            X1/11 VE6/C ;
+N15912984  = R6/2 X3/5 ;
+SDIO-D3  = X13/14 X3/1 R2/1 DD4/79 ;
+SDIO-D2  = DD4/78 X13/13 R1/1 X3/9 ;
+SDIO-CMD  = R3/1 X3/2 X13/15 DD4/83 ;
+N16598712  = C19/2 DD3/5 ;
+N16598534  = R21/1 X2/7 R23/1 DD3/7 ;
+SDIO-CK  = R6/1 DD4/80 X13/16 ;
+N16598684  = X2/8 R23/2 DD3/6 R22/1 ;
+SDIO-D0  = X13/11 X3/7 R4/1 DD4/65 ;
+SDIO-D1  = X13/12 DD4/66 X3/8 R5/1 ;
+SDIO-CD  = R7/1 DD4/64 X13/17 ;
+N15928784  = Z1/1 VD2/CATHODE C22/2 ;
+N15928792  = C22/1 X12/3 X12/2 Z1/3 ;
+N15928846  = VD2/ANODE X12/1 ;
+N16698570  = DD4/48 C10/2 ;
+NRST  = R17/2 C49/1 DD4/14 X5/8
+            SW1/4 X13/1 X7/1 ;
+SWCLK  = X13/2 X7/2 DD4/76 X5/3
+            R15/1 ;
+BOOT0  = DD4/94 X5/2 R14/2 X7/4
+            X13/4 ;
+SWDIO  = X7/3 X5/5 R16/2 X13/3
+            DD4/72 ;
+N16511181  = DD4/9 BQ2/1 C9/2 ;
+N16508630  = DD4/8 C8/2 BQ2/4 ;
+N15930737  = R24/2 VD3/ANODE X8/1 C23/1 ;
+N16952367  = C38/2 DD4/73 ;
+SPI1-MISO  = DD4/31 X13/7 DD2/2 ;
+SPI1-SCK  = X13/9 DD2/6 DD4/30 ;
+SPI1-NSS  = X13/10 DD4/29 DD2/1 R19/1 ;
+SPI1-MOSI  = DD4/32 DD2/5 X13/8 ;
+N15915658  = R11/2 X4/0 ;
+NRST-SLAVE  = X7/21 DD4/91 X2/9 ;
+V-BAT  = R24/1 R25/2 X7/26 DD4/15 ;
++5V  = DA1/5 C5/2 ;
+N15915734  = R10/2 X4/4 DA2/3 ;
+N15915814  = DA2/1 R8/2 C6/2 X4/2 ;
+N15915778  = DA2/2 R9/2 C7/2 X4/3 ;
+N16358495  = C13/1 DD4/100 DD4/75 C14/1
+            C12/1 DD4/11 DD4/19 R15/2
+            DD4/22 DD4/28 DD4/50 C11/1
+            R17/1 DD4/21 Z2/1 R18/2 ;
+USB-VBUS-ERR  = DA1/3 DD4/67 ;
+USB-VBUS-EN  = R34/1 DA1/4 DD4/63 ;
+USB-VBUS  = R33/1 DD4/68 ;
+USB-DP  = R9/1 DD4/71 ;
+USB-DM  = R8/1 DD4/70 ;
+USB-ID  = DD4/69 R10/1 ;
+N16372009  = C16/1 C17/2 DA3/8 Z2/2
+            C15/1 ;
+5V  = VE3/A X2/2 X2/1 X11/1
+            DA6/6 DA6/3 DA6/2 C48/1
+            C47/1 VE1/A VE4/A C35/2
+            C37/1 R30/2 L2/2 DA5/2
+            DA5/3 C45/1 C46/1 DA5/6 ;
+COVER  = DD4/46 R13/2 C18/1 X11/4 ;
+N15938073  = X10/2 DA6/7 ;
+N15938081  = X9/2 DA5/7 ;
+N15921461  = VT1/C R12/1 ;
+N15921485  = X11/2 R12/2 ;
+N15938069  = X10/1 DA6/1 ;
+9V  = DA4/15 VD3/CATHODE C24/1 Z1/2
+            C25/2 DA4/23 C26/2 DA4/14
+            DA3/1 ;
+MT0R  = X7/16 DD4/60 DA5/5 ;
+N15938077  = X9/1 DA5/1 ;
+MT1F  = DA6/4 DD4/61 X7/17 ;

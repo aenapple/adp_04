@@ -1,0 +1,18 @@
+Carriage  Revised: Monday, June 15, 2015
+APD04.00.400          Revision: 3
+
+
+
+
+
+
+
+Bill Of Materials           June 15,2015      22:37:33	Page1
+
+Item	Quantity	Reference	Part	PartManufacture	Description
+______________________________________________
+
+1	1	C1	6.8	Kemet	T491B685K010AT SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B
+2	1	C2	0.1	Kemet	C0805C104M5RAC  SMD Ceramic Capacitor, X7R,50V,0.1uF,Tol.20%,Case 0805
+3	1	DA1	TSL1401R	TAOS	TSL1401R-LF, 128x1 linear sensor array, DIP-8
+4	1	X1	FH12-10S-0.5SH	Hirose Electric	0.5mm Pitch Connectors for FPC/FFC, 10pins.

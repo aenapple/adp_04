@@ -1,0 +1,25 @@
+% Carriage                                      Revised: Monday, June 15, 2015
+% APD04.00.400                                  Revision: 3
+% 
+% 
+% 
+% 
+% 
+BOARD = ORCAD.PCB;
+
+PARTS
+Case B          = C1;   % 6.8
+0805            = C2;   % 0.1
+DIP-8           = DA1;   % TSL1401R
+FH12-10S-0.5SH  = X1;   % FH12-10S-0.5SH
+
+NETS
+
+GND  = X1/1 C2/2 C1/2 X1/10
+            X1/7 X1/5 DA1/7 DA1/6
+            X1/3 ;
++3V3  = C2/1 X1/8 X1/9 C1/1
+            DA1/4 ;
+IMG-OUT  = X1/6 DA1/3 ;
+IMG-CLK  = X1/2 DA1/2 ;
+IMG-SI  = X1/4 DA1/1 ;

@@ -1,0 +1,47 @@
+Carriage  Revised: Friday, May 22, 2015
+APD04.00.200          Revision: 1
+
+
+
+
+
+
+
+Bill Of Materials            May 22,2015      15:07:42	Page1
+
+Item	Quantity	Reference	Part	ParttManufacture	Description
+______________________________________________
+
+1	1	BQ1	8.000MHz	Murata	CSTCE8M00G15L, SMD Crystal
+2	5	C1,C2,C3,C4,C6	0.1	Kemet	C0603C104M3RAC  SMD Ceramic Capacitor, X7R 0.1uF 16V, 20%, 0603
+3	1	C5	4.7	Kemet	T491A475M025AT SMD Tantalum Capacitor,25V,4.7uF,Tol.20%,Case A (3216-18 EIA)
+4	3	C7,C15,C17	6.8	Kemet	T491B685K010AT SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B
+5	5	C9,C12,C14,C16,C18	0.1	Cal-Chip Electronics	GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603
+6	1	C10	1000	Kemet	C0603C102J5GAC SMT Ceramic Capacitor,NP0,50V,1000pF,Tol.5%, Case 0603
+7	1	C11	2.2	TDK	C2012X7R1E225K Chip Ceramic Capacitor, Low ESR, 25V,  2.2uF, 10%,  0805
+8	1	C13	120	Kemet	C0603C121J5GAC SMD Ceramic Capacitor,NP0, 50V,120pF,Tol.5%, Case 0603
+9	1	DD1	STM32F072C8T6	ST Microelectronics	Cortex-M0 Microcontroller, 32KB Flash, LQFP-48 Package
+10	1	R1	10K	Chip Tech	CR0603J103T1LF, 10K 1/10W, 5%, 0603, Res SMT
+11	1	R2	43K	Chip Tech	CR0603J433T1LF, 1/10W,43K,Tol.5%,Case 0603
+12	2	R3,R4	27	ROHM	MCR03EZPFX27R0, 27R 1/10W,Tol.5%,Case 0603
+13	4	R5,R8,R15,R29	330	ROHM	MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603
+14	8	R6,R7,R9,R18,R21,R27,R28,	22K	Chip Technologies	CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603
+		R31
+15	2	R10,R11	620	Chip Technologies	CR0805J621T1LF Chip Thick Film Resistor 0.125W,620ohm,Tol.5%,Case  0805
+16	1	R12	1K	Chip Technologies	CR0603J102T1LF Chip Thick Film Resistor 0.1W,1K,Tol.5%,Case 0603
+17	6	R13,R14,R19,R20,R22,R23	10K	Chip Technologies	CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603
+18	1	R16	39K	Chip Technologies	CR0603J393T1LF Chip Thick Film Resistor 0.1W,39K,Tol.5%,Case 0603
+19	1	R17	2.7K	Chip Technologies	CR0603J272T1LF Chip Thick Film Resistor 0.1W,2.7K,Tol.5%,Case 0603
+20	3	R24,R25,R26	27	ROHM	MCR10ERTJ270 SMD Thick Film Resistor 0.125W,27ohm,Tol.5%,Case 0805
+21	1	R30	2.2K	Chip Technologies	CR0603J222T1LF Chip Thick Film Resistor 0.1W,2.2K,Tol.5%,Case 0603
+22	1	R32	43	ROHM	MCR18ERTJ430 SMD Thick Film Resistor 0.25W,43ohm,Tol.5%,Case 1206
+23	1	U1	TLV2262CD	TI	CMOS R-to-R Dual Operational Amplifier, Case SO-8
+24	2	U2,U3	BD6210F	ROHM	H-Bridge Driver, 0.5A, 7V, case SOP-8
+25	3	VE1,VE2,VE3	EE-SX1109	Omron	SMT Slotted Photointerrupter, 0.5mm Aperture
+26	2	VT1,VT3	MMUN2233LT1G	ON Semiconductors	Bias Resistor NPN Transistor, 4K7/47K,  Case SOT23
+27	1	VT2	BC817-40LT1G	ON Semiconductors	45V NPN Small Signal Transistor, hFE(min) 250, SOT-23
+28	2	X1,X6	FH12S-30S-0.5SH	Hirose Electric	0.5mm Pitch, Strengthed Lock Type, SMT Horizontal Mounting Connector for FPC/FFC, 30 Contacts
+29	1	X2	DF3DZ-2P-2H(21)	Hirose Electric	2mm Pitch Wire-to-Board Header, Single Row, Right Angle, SMT, 2 Contacts
+30	1	X3	FH12A-10S-0.5SH	Hirose Electric	0.5mm Pitch, Horisontal Mounting, Top Contacts FFC/FPC Connector, 10 Contacts
+31	1	X4	FH12A-20S-0.5SH	Hirase Electric	0.5mm Pitch, Horizontal Mounting, Top Contacts FFC/FPC Connector, 20 Contacts
+32	1	X5	FH12A-16S-0.5SH	Hirose Electric	0.5mm Pitch, Horizontal Mounting, Top Contacts FFC/FPC Connector, 16 Contacts

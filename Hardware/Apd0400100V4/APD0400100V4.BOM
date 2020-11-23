@@ -1,0 +1,78 @@
+MAIN BOARD  Revised: Saturday, June 27, 2015
+APD04.00.100          Revision: 4
+
+
+
+
+
+
+
+Bill Of Materials           July 8,2015      21:58:20	Page1
+
+Item	Quantity	Reference	Part	Manufacturer	Description
+______________________________________________
+
+1	1	BQ1	8.000MHz	Murata	CSTCE8M00G15L, SMD Crystal
+2	1	BQ2	32.768KGz	Abracon	ABS10-32.768 kHz, SMD Crystal
+3	11	C1,C18,C28,C30,C31,C39,	4700	Kemet	C0603C472K3GAC Chip Ceramic Capacitor, C0G,25V,4700pF,Tol.10%,Case 0603
+		C40,C41,C42,C43,C44
+4	4	C2,C5,C19,C20	0.1	Cal-Chip Electronics	GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603
+5	6	C3,C4,C25,C26,C34,C35	2.2	TDK	C2012X7R1E225K Chip Ceramic Capacitor, Low ESR, 25V,  2.2uF, 10%,  0805
+6	4	C6,C7,C8,C9	15pF	Kemet	C0603C150J3GAC SMD Ceramic Capacitor,NP0,25V,15pF,Tol.5%, Case 0603
+7	3	C10,C17,C38	4.7	Murata	GRM32ER71H475KA88L,CAP CER 4.7UF 50V 10% X7R 1210
+8	6	C11,C12,C13,C49,C51,C52	0.1	Kemet	C0603C104M3RAC  SMD Ceramic Capacitor, X7R 0.1uF 16V, 20%, 0603
+9	2	C14,C50	4.7	Kemet	T491A475M025AT SMD Tantalum Capacitor,25V,4.7uF,Tol.20%,Case A (3216-18 EIA)
+10	1	C15	6.8	Kemet	T491B685K010AT, SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B
+11	1	C16	0.1	CalChip	X7R;Tol.10%;Case 0805  4K; GMC21X7R104K50NTLF-CalChip.
+12	1	C21	6.8	Kemet	T491B685K010AT SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B
+13	6	C22,C23,C32,C33,C46,C48	0.1	Kemet	C0805C104M5RAC  SMD Ceramic Capacitor, X7R,50V,0.1uF,Tol.20%,Case 0805
+14	1	C24	68.0	Kemet	T491D686M020AT SMD Tantalum Capacitor,20V, 68uF,Tol.20%,Case D
+15	2	C27,C29	0.047	Kemet	C0805C473M5RAC  SMD Ceramic Capacitor, X7R,50V,0.047uF,Tol.20%,Case 0805
+16	4	C36,C37,C45,C47	100.0	Kemet	T491B107K010AT SMD Tantalum Capacitor,10V, 100uF,Tol.10%,Case B
+17	1	DA1	STMPS2151STR	ST Microelectronics	USB single channel power switch,Active High, 500 mA, case SOT23-5L
+18	1	DA2	PUSBM5V5X4-TL	NXP	High-speed USB OTG ESD protection diode array, Case DFN1616-6
+19	1	DA3	TPS715A33DRBR	Texas Instruments	3.3V,80mA,24V, 1.1V DO, 1W @, 85°C, Linear Regulator,8-Pin SON Package
+20	1	DA4	LM2717MT	TI	LM2717MT/NOPB, Dual Step-Down DC/DC Converter, 3.3V and Adj, case TSSOP-24
+21	2	DA5,DA6	BD6210F	ROHM	H-Bridge Driver, 0.5A, 7V, case SOP-8
+22	1	DD1	HC-05/HM11	Bluetooth	Bluetooth module, 34-pins Package
+23	1	DD2	M25P32	Numonyx	M25P32-VMW6, 32Mbit, low voltage Flash memory, SPI, case SO8W
+24	1	DD3	SN65HVD75DGKR	TI	SN65HVD75DGKR ,EIA RS-485 Transceiver, up to 20Mbps and 100m, VSSOP-8
+25	1	DD4	STM32F401VCT6	ST	Cortex-M4 Microcontroller, LQFP-100 Package
+26	2	L1,L2	MOS6020-223ML	Coilcraft	MOS6020-223ML, SMT Power Inductor, 6.0x7.1x2.4 mm, 1A
+27	13	R1,R2,R3,R4,R5,R13,R29,	22K	Chip Technologies	CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603
+		R35,R37,R38,R40,R42,R43
+28	6	R6,R7,R8,R9,R10,R33	22	Chip Technologies	CR0603J220T1LF Chip Thick Film Resistor 0.1W,22 ohm,Tol.5%,Case 0603
+29	1	R11	0R	Chip Tech	CR0805J000T1LF, Jumper ChipResistor 0.125W,0ohm,Case 0805
+30	4	R12,R20,R45,R46	470	ROHM	MCR03ERTJ471, Chip Thick Film Resistor 0.1W,470ohm,Tol.5%,Case 0603
+31	1	R14	43K	Chip Tech	CR0603J433T1LF, 1/10W,43K,Tol.5%,Case 0603
+32	4	R15,R16,R18,R44	51K	ROHM	MCR10EZPJ513 SMD Thick Film Resistor 0.125W,51K,Tol.5%,Case 0805
+33	1	R17	10K	Chip Tech	CR0603J103T1LF, 10K 1/10W, 5%, 0603, Res SMT
+34	6	R19,R26,R27,R28,R32,R34	10K	Chip Technologies	CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603
+35	2	R21,R22	27	ROHM	MCR03EZPFX27R0, 27R 1/10W,Tol.5%,Case 0603
+36	1	R23	120	ROHM	MCR10EZHJ121 SMD Thick Film Resistor 0.125W Tol.5% Case 0805
+37	2	R24,R31	31.6K	ROHM	MCR10EZPF3162 SMD Thick Film Resistor 0.1W, 31.6 KOhm,Tol.1%,Case 0805
+38	1	R25	10.5K	ROHM	MCR10EZPF1052 SMD Thick Film Resistor 0.1W,10.5K,Tol.1%,Case 0805
+39	1	R30	93.1K	ROHM	MCR10EZPF9312 SMD Thick Film Resistor 0.1W, 93.1 KOhm,Tol.1%,Case 0805
+40	3	R36,R39,R41	330	ROHM	MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603
+41	1	SW1	FSM4JSMA	TE Connectivity	Pushbutton Switch, 6x6mm, SMT
+42	1	SW2	FSMRA4J	TE Connectivity	Right Angle Tactile Switch, SPST-NO, 5.74mm Actuator Length
+43	1	VD1	APHHS1005SURCK	Kinghbright	Top emitting SMD chip LED, Hyper Red,  Water Clear, Case 0603
+44	4	VD2,VD3,VD4,VD5	MBR130T3G	ON Semiconductor	MBR130T3G, SMD Schottky Diode 1A,100V, Case SOD-123
+45	1	VD6	APHHS1005MGCK	Kinghbright	Top emitting SMD chip LED, Green, Case 0603
+46	1	VD7	APHHS1005QBC/D	Kinghbright	Top emitting SMD chip LED, Blue, Case 0603
+47	4	VE1,VE2,VE3,VE5	OPB620	Optek	Slotted Photointerrupter, 0.06" Aperture
+48	2	VE4,VE6	EE-SX1109	Omron	SMT Slotted Photointerrupter, 0.5mm Aperture
+49	6	VT1,VT2,VT3,VT4,VT5,VT6	MMUN2233LT1G	ON Semiconductors	Bias Resistor NPN Transistor, 4K7/47K,  Case SOT23
+50	1	X1	FH12-12S-0.5SH	Hirose Electric	0.5mm Pitch Horizontal Mounting FFC/FPC Connector, 12 Contacts.
+51	1	X2	FH12-10S-0.5SH	Hirose Electric	0.5mm Pitch Connectors for FPC/FFC, 10pins.
+52	1	X3	DM1-AA-SF-PEJ	Hirose Electric	DM1AA-SF-PEJ, SD Memory Card Connectors
+53	1	X4	ZX62D-AB-5P8	Hirose Electric	Micro AB USB Receptacle, 5 Contacts, Right Angle SMT, Through hole Shell
+54	1	X5	087758-0816	Molex	CONN HEADER 8POS 2MM VERT
+55	1	X6	BC2032-E1	Memory protection devices	CR2032 battety holder, BC2032-E2
+56	2	X7,X13	FH12-30S-0.5SH	Hirose Electric	0.5mm Pitch, Strengthed Lock Type, SMT Horizontal Mounting Connector for FPC/FFC, 30 Contacts
+57	1	X8	DF3DZ-3P-2H(21)	Hirose Electric	2mm Pitch Wire-to-Board Header, Single Row, Right Angle, SMT, 3 Contacts
+58	2	X9,X10	DF3DZ-2P-2H(21)	Hirose Electric	2mm Pitch Wire-to-Board Header, Single Row, Right Angle, SMT, 2 Contacts
+59	1	X11	DF3DZ-4P-2H(21)	Hirose Electric	2mm Pitch Wire-to-Board Header, Single Row, Right Angle, SMT, 4 Contacts
+60	1	X12	PJ-057A	CUI	PJ-057A, DC POWER JACK
+61	1	Z1	BNX022-01L	Murata	Block Type EMI Suppression Filter, SMT
+62	1	Z2	NFM41PC204F1H3L	Murata	Chip Filter,Case 1806

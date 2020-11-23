@@ -1,0 +1,2461 @@
+(PCB APD0400200V2_1
+ (description
+  (timeStamp "2015 07 09 02 00 24")
+  (program "CAPTURE.EXE" (Version "10.5.0.b001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "Carriage")
+  (date "Wednesday, July 08, 2015")
+  (document "APD04.00.200")
+  (revision "2.1")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component OPB610_0
+   (place VE4
+    (property 
+     ("PCB Footprint" 6x4)
+     (timestamp 00F40E2A)
+     ("Source Package" OPB610_0)
+     ("2ND PART FIELD" "Slotted Photointerrupter, 0.06\" Aperture")
+     (Value OPB620)
+     ("1ST PART FIELD" Optek))))
+  (component OPB610_1
+   (place VE1
+    (property 
+     ("PCB Footprint" 6x4)
+     (timestamp 00080C7C)
+     ("Source Package" OPB610_1)
+     ("2ND PART FIELD" "PCB Type Photointerrupter, 0.5mm width aperture")
+     (Value KRB031)
+     ("1ST PART FIELD" Kingbright)))
+   (place VE2
+    (property 
+     ("PCB Footprint" 6x4)
+     (timestamp 00F44D88)
+     ("Source Package" OPB610_1)
+     ("2ND PART FIELD" "PCB Type Photointerrupter, 0.5mm width aperture")
+     (Value KRB031)
+     ("1ST PART FIELD" Kingbright)))
+   (place VE3
+    (property 
+     ("PCB Footprint" 6x4)
+     (timestamp 00F45268)
+     ("Source Package" OPB610_1)
+     ("2ND PART FIELD" "PCB Type Photointerrupter, 0.5mm width aperture")
+     (Value KRB031)
+     ("1ST PART FIELD" Kingbright))))
+  (component CON2
+   (place X4
+    (property 
+     (timestamp 00063A71)
+     ("Source Package" CON2)
+     ("2ND PART FIELD" "2mm Pitch Connector, 2 pins.")
+     (Value "DF3D-2P-2H")
+     ("1ST PART FIELD" "Hirose Electric"))))
+  (component "NPN BEC_0"
+   (place VT1
+    (property 
+     ("PCB Footprint" SOT23)
+     (timestamp 00009744)
+     ("Source Package" "NPN BEC_0")
+     ("2ND PART FIELD" "Bias Resistor NPN Transistor, 4K7/47K,  Case SOT23")
+     (Value MMUN2233LT1G)
+     ("1ST PART FIELD" "ON Semiconductors")))
+   (place VT2
+    (property 
+     ("PCB Footprint" SOT23)
+     (timestamp 00F3BF20)
+     ("Source Package" "NPN BEC_0")
+     ("2ND PART FIELD" "Bias Resistor NPN Transistor, 4K7/47K,  Case SOT23")
+     (Value MMUN2233LT1G)
+     ("1ST PART FIELD" "ON Semiconductors"))))
+  (component CON3
+   (place X2
+    (property 
+     (timestamp 00EE5DC8)
+     ("Source Package" CON3)
+     ("2ND PART FIELD" "2mm Pitch Connector, 3 pins.")
+     (Value "DF3D-3P-2H")
+     ("1ST PART FIELD" "Hirose Electric")))
+   (place X3
+    (property 
+     (timestamp 00EE756C)
+     ("Source Package" CON3)
+     ("2ND PART FIELD" "2mm Pitch Connector, 3 pins.")
+     (Value "DF3D-3P-2H")
+     ("1ST PART FIELD" "Hirose Electric"))))
+  (component LM358_3
+   (place DA1
+    (property 
+     ("PCB Footprint" "SO-8")
+     (timestamp 00E63880)
+     ("Source Package" LM358_3)
+     ("2ND PART FIELD" "CMOS R-to-R Dual Operational Amplifier, Case SO-8")
+     (Value TLV2262CD)
+     ("1ST PART FIELD" TI)))
+   (place DA2
+    (property 
+     ("PCB Footprint" "SO-8")
+     (timestamp 00EED005)
+     ("Source Package" LM358_3)
+     ("2ND PART FIELD" "CMOS R-to-R Dual Operational Amplifier, Case SO-8")
+     (Value TLV2262CD)
+     ("1ST PART FIELD" TI)))
+   (place DA3
+    (property 
+     ("PCB Footprint" "SO-8")
+     (timestamp 00EEF91B)
+     ("Source Package" LM358_3)
+     ("2ND PART FIELD" "CMOS R-to-R Dual Operational Amplifier, Case SO-8")
+     (Value TLV2262CD)
+     ("1ST PART FIELD" TI)))
+   (place DA4
+    (property 
+     ("PCB Footprint" "SO-8")
+     (timestamp 00EF1AF0)
+     ("Source Package" LM358_3)
+     ("2ND PART FIELD" "CMOS R-to-R Dual Operational Amplifier, Case SO-8")
+     (Value TLV2262CD)
+     ("1ST PART FIELD" TI)))
+   (place DA5
+    (property 
+     ("PCB Footprint" "SO-8")
+     (timestamp 00EF1936)
+     ("Source Package" LM358_3)
+     ("2ND PART FIELD" "CMOS R-to-R Dual Operational Amplifier, Case SO-8")
+     (Value TLV2262CD)
+     ("1ST PART FIELD" TI)))
+   (place DA6
+    (property 
+     ("PCB Footprint" "SO-8")
+     (timestamp 00EF1CAA)
+     ("Source Package" LM358_3)
+     ("2ND PART FIELD" "CMOS R-to-R Dual Operational Amplifier, Case SO-8")
+     (Value TLV2262CD)
+     ("1ST PART FIELD" TI)))
+   (place DA7
+    (property 
+     ("PCB Footprint" "SO-8")
+     (timestamp 00EC8549)
+     ("Source Package" LM358_3)
+     ("2ND PART FIELD" "CMOS R-to-R Dual Operational Amplifier, Case SO-8")
+     (Value TLV2262CD)
+     ("1ST PART FIELD" TI))))
+  (component "CAPACITOR NON-POL"
+   (place C41
+    (property 
+     ("PART NUMBER" 971)
+     (timestamp 00EC216B)
+     ("Source Package" "CAPACITOR NON-POL")
+     ("2ND PART FIELD" "C1206C224M5RAC, SMD Ceramic Capacitor, 50V, X7R, Tol. 20%, case 1206")
+     (Value 0,22)
+     ("1ST PART FIELD" Kemet)))
+   (place C45
+    (property 
+     ("PART NUMBER" 971)
+     (timestamp 00EC7D21)
+     ("Source Package" "CAPACITOR NON-POL")
+     ("2ND PART FIELD" "C1206C224M5RAC, SMD Ceramic Capacitor, 50V, X7R, Tol. 20%, case 1206")
+     (Value 0,22)
+     ("1ST PART FIELD" Kemet))))
+  (component CON4
+   (place X6
+    (property 
+     (timestamp 00F38402)
+     ("Source Package" CON4)
+     ("2ND PART FIELD" "KK@ Header, Vertical, Round Pin, 4 Circuits.")
+     (Value "10-08-1041")
+     ("1ST PART FIELD" Molex))))
+  (component "CAP NP"
+   (place C20
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EED17D)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C2012X7R1E225K Chip Ceramic Capacitor, Low ESR, 25V,  2.2uF, 10%,  0805")
+     (Value 2.2)
+     ("1ST PART FIELD" TDK)))
+   (place C21
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EED029)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C22
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EED0FB)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C121J5GAC SMD Ceramic Capacitor,NP0, 50V,120pF,Tol.5%, Case 0603")
+     (Value 120)
+     ("1ST PART FIELD" Kemet)))
+   (place C23
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EEF92F)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C24
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EEFA01)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C102J5GAC SMT Ceramic Capacitor,NP0,50V,1000pF,Tol.5%, Case 0603")
+     (Value 1000)
+     ("1ST PART FIELD" Kemet)))
+   (place C25
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EEFA93)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C2012X7R1E225K Chip Ceramic Capacitor, Low ESR, 25V,  2.2uF, 10%,  0805")
+     (Value 2.2)
+     ("1ST PART FIELD" TDK)))
+   (place C26
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EEF93F)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C27
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EEFA11)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C121J5GAC SMD Ceramic Capacitor,NP0, 50V,120pF,Tol.5%, Case 0603")
+     (Value 120)
+     ("1ST PART FIELD" Kemet)))
+   (place C28
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EF1B00)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C29
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EF1BD6)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C102J5GAC SMT Ceramic Capacitor,NP0,50V,1000pF,Tol.5%, Case 0603")
+     (Value 1000)
+     ("1ST PART FIELD" Kemet)))
+   (place C1
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00E6A00F)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C104M3RAC  SMD Ceramic Capacitor, X7R 0.1uF 16V, 20%, 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" Kemet)))
+   (place C2
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00E6A05B)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C104M3RAC  SMD Ceramic Capacitor, X7R 0.1uF 16V, 20%, 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" Kemet)))
+   (place C3
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00E69D3D)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C104M3RAC  SMD Ceramic Capacitor, X7R 0.1uF 16V, 20%, 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" Kemet)))
+   (place C4
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00E69D5D)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C104M3RAC  SMD Ceramic Capacitor, X7R 0.1uF 16V, 20%, 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" Kemet)))
+   (place C6
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EB5399)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C30
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EF1C68)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C2012X7R1E225K Chip Ceramic Capacitor, Low ESR, 25V,  2.2uF, 10%,  0805")
+     (Value 2.2)
+     ("1ST PART FIELD" TDK)))
+   (place C31
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EF194A)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C32
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EF1A1C)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C102J5GAC SMT Ceramic Capacitor,NP0,50V,1000pF,Tol.5%, Case 0603")
+     (Value 1000)
+     ("1ST PART FIELD" Kemet)))
+   (place C33
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EF1AAE)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C2012X7R1E225K Chip Ceramic Capacitor, Low ESR, 25V,  2.2uF, 10%,  0805")
+     (Value 2.2)
+     ("1ST PART FIELD" TDK)))
+   (place C34
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EF195A)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C35
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EF1A2C)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C121J5GAC SMD Ceramic Capacitor,NP0, 50V,120pF,Tol.5%, Case 0603")
+     (Value 120)
+     ("1ST PART FIELD" Kemet)))
+   (place C36
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EF1CBE)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C37
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EF1D90)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C102J5GAC SMT Ceramic Capacitor,NP0,50V,1000pF,Tol.5%, Case 0603")
+     (Value 1000)
+     ("1ST PART FIELD" Kemet)))
+   (place C38
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EF1E22)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C2012X7R1E225K Chip Ceramic Capacitor, Low ESR, 25V,  2.2uF, 10%,  0805")
+     (Value 2.2)
+     ("1ST PART FIELD" TDK)))
+   (place C39
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EF1CCE)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C40
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EF1DA8)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C121J5GAC SMD Ceramic Capacitor,NP0, 50V,120pF,Tol.5%, Case 0603")
+     (Value 120)
+     ("1ST PART FIELD" Kemet)))
+   (place C10
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EE312A)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C42
+    (property 
+     ("PART NUMBER" M950)
+     (timestamp 00EC2655)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "25V, X7R, Tol.20%, Case 0805; C0805C223M3RAC")
+     (Value 0.022)
+     ("1ST PART FIELD" Kemet)))
+   (place C43
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00ECA005)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C12
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00E63F21)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C13
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00E63894)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C14
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00E63962)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C102J5GAC SMT Ceramic Capacitor,NP0,50V,1000pF,Tol.5%, Case 0603")
+     (Value 1000)
+     ("1ST PART FIELD" Kemet)))
+   (place C46
+    (property 
+     ("PART NUMBER" M950)
+     (timestamp 00EC7D55)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "25V, X7R, Tol.20%, Case 0805; C0805C223M3RAC")
+     (Value 0.022)
+     ("1ST PART FIELD" Kemet)))
+   (place C47
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EF1B14)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C15
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00E639FC)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C2012X7R1E225K Chip Ceramic Capacitor, Low ESR, 25V,  2.2uF, 10%,  0805")
+     (Value 2.2)
+     ("1ST PART FIELD" TDK)))
+   (place C16
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00E638A4)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C48
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EF1BE6)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C121J5GAC SMD Ceramic Capacitor,NP0, 50V,120pF,Tol.5%, Case 0603")
+     (Value 120)
+     ("1ST PART FIELD" Kemet)))
+   (place C17
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00E6397A)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C121J5GAC SMD Ceramic Capacitor,NP0, 50V,120pF,Tol.5%, Case 0603")
+     (Value 120)
+     ("1ST PART FIELD" Kemet)))
+   (place C49
+    (property 
+     ("PART NUMBER" M950)
+     (timestamp 00FD0302)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "25V, X7R, Tol.20%, Case 0805; C0805C223M3RAC")
+     (Value 0.022)
+     ("1ST PART FIELD" Kemet)))
+   (place C18
+    (property 
+     ("PART NUMBER" M912)
+     (timestamp 00EED015)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "GMC10X7R104K25NTLF Chip Ceramic Capacitor, X7R,25V,0.1uF,Tol.10%,Case 0603")
+     (Value 0.1)
+     ("1ST PART FIELD" "Cal-Chip Electronics")))
+   (place C19
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00EED0EB)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0603C102J5GAC SMT Ceramic Capacitor,NP0,50V,1000pF,Tol.5%, Case 0603")
+     (Value 1000)
+     ("1ST PART FIELD" Kemet))))
+  (component "CAPACITOR FEED"
+   (place Z1
+    (property 
+     (timestamp 00EEE607)
+     ("Source Package" "CAPACITOR FEED")
+     ("2ND PART FIELD" "Chip Filter,Case 1806")
+     (Value NFM41PC204F1H3L)
+     ("1ST PART FIELD" Murata))))
+  (component BD6210_0
+   (place DA8
+    (property 
+     ("PCB Footprint" "SOP-8")
+     (timestamp 00EE30BE)
+     ("Source Package" BD6210_0)
+     ("2ND PART FIELD" "H-Bridge Driver, 0.5A, 7V, case SOP-8")
+     (Value BD6210F)
+     ("1ST PART FIELD" ROHM)))
+   (place DA9
+    (property 
+     ("PCB Footprint" "SOP-8")
+     (timestamp 00E63E73)
+     ("Source Package" BD6210_0)
+     ("2ND PART FIELD" "H-Bridge Driver, 0.5A, 7V, case SOP-8")
+     (Value BD6210F)
+     ("1ST PART FIELD" ROHM))))
+  (component LED
+   (place VD1
+    (property 
+     (timestamp 00F2C8B7)
+     ("Source Package" LED)
+     ("2ND PART FIELD" "3.0mmx1.0mm, Right Angle Infrared Diod")
+     (Value APA3010SF4C)
+     ("1ST PART FIELD" Kingdright)))
+   (place VD2
+    (property 
+     (timestamp 00F2A7CF)
+     ("Source Package" LED)
+     ("2ND PART FIELD" "3.0mmx1.0mm, Right Angle Infrared Diod")
+     (Value APA3010SF4C)
+     ("1ST PART FIELD" Kingdright)))
+   (place VD3
+    (property 
+     (timestamp 00F2C647)
+     ("Source Package" LED)
+     ("2ND PART FIELD" "3.0mmx1.0mm, Right Angle Infrared Diod")
+     (Value APA3010SF4C)
+     ("1ST PART FIELD" Kingdright))))
+  (component "STM32F051C4T6-LQFP48_10"
+   (place DD1
+    (property 
+     (timestamp 00EFFF2C)
+     ("Source Package" "STM32F051C4T6-LQFP48_10")
+     ("2ND PART FIELD" "Cortex-M0 Microcontroller, 128KB Flash, LQFP-64 Package")
+     (Value STM32F072RBT6)
+     ("1ST PART FIELD" "ST Microelectronics"))))
+  (component CON8A
+   (place X5
+    (property 
+     (timestamp 00F1C444)
+     ("Source Package" CON8A)
+     ("2ND PART FIELD" "CONN HEADER 8POS 2MM VERT")
+     (Value "087758-0816")
+     ("1ST PART FIELD" Molex))))
+  (component ADM485_0
+   (place DD2
+    (property 
+     (timestamp 00EB2E9C)
+     ("Source Package" ADM485_0)
+     ("2ND PART FIELD" "SN65HVD75DGKR ,EIA RS-485 Transceiver, up to 20Mbps and 100m, VSSOP-8")
+     (Value SN65HVD75DGKR)
+     ("1ST PART FIELD" TI))))
+  (component "CAPACITOR POL"
+   (place C5
+    (property 
+     ("PART NUMBER" 904)
+     (timestamp 00E69EDF)
+     ("Source Package" "CAPACITOR POL")
+     ("2ND PART FIELD" "T491A475M025AT SMD Tantalum Capacitor,25V,4.7uF,Tol.20%,Case A (3216-18 EIA)")
+     (Value 4.7)
+     ("1ST PART FIELD" Kemet)))
+   (place C7
+    (property 
+     ("PCB Footprint" "Case B")
+     (timestamp 00EA89C1)
+     ("Source Package" "CAPACITOR POL")
+     ("2ND PART FIELD" "T491B685K010AT SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B")
+     (Value 6.8)
+     ("1ST PART FIELD" Kemet)))
+   (place C8
+    (property 
+     ("PCB Footprint" "Case B")
+     (timestamp 00EAD59E)
+     ("Source Package" "CAPACITOR POL")
+     ("2ND PART FIELD" "T491B685K010AT SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B")
+     (Value 6.8)
+     ("1ST PART FIELD" Kemet)))
+   (place C9
+    (property 
+     ("PCB Footprint" "Case B")
+     (timestamp 00EE3142)
+     ("Source Package" "CAPACITOR POL")
+     ("2ND PART FIELD" "T491B685K010AT SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B")
+     (Value 6.8)
+     ("1ST PART FIELD" Kemet)))
+   (place C11
+    (property 
+     ("PCB Footprint" "Case B")
+     (timestamp 00E63FAD)
+     ("Source Package" "CAPACITOR POL")
+     ("2ND PART FIELD" "T491B685K010AT SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B")
+     (Value 6.8)
+     ("1ST PART FIELD" Kemet)))
+   (place C44
+    (property 
+     ("PCB Footprint" "Case B")
+     (timestamp 00F2E105)
+     ("Source Package" "CAPACITOR POL")
+     ("2ND PART FIELD" "T491B685K010AT SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B")
+     (Value 6.8)
+     ("1ST PART FIELD" Kemet))))
+  (component CRYSTAL_7
+   (place BQ1
+    (property 
+     ("PART NUMBER" M1276)
+     (timestamp 00E69F27)
+     ("Source Package" CRYSTAL_7)
+     ("2ND PART FIELD" "CSTCE8M00G15L, SMD Crystal")
+     (Value 8.000MHz)
+     ("1ST PART FIELD" Murata))))
+  (component "CONN FLEX 30"
+   (place X10
+    (property 
+     (timestamp 00F684AD)
+     ("Source Package" "CONN FLEX 30")
+     ("2ND PART FIELD" "0.5mm Pitch, Strengthed Lock Type, SMT Horizontal Mounting Connector for FPC/FFC, 30 Contacts")
+     (Value "FH12-30S-0.5SH")
+     ("1ST PART FIELD" "Hirose Electric")))
+   (place X9
+    (property 
+     (timestamp 00F5F563)
+     ("Source Package" "CONN FLEX 30")
+     ("2ND PART FIELD" "0.5mm Pitch, Strengthed Lock Type, SMT Horizontal Mounting Connector for FPC/FFC, 30 Contacts")
+     (Value "FH12-30S-0.5SH")
+     ("1ST PART FIELD" "Hirose Electric"))))
+  (component CON20
+   (place X7
+    (property 
+     (timestamp 00F46BDE)
+     ("Source Package" CON20)
+     ("2ND PART FIELD" "0.5mm Pitch Connectors for FPC/FFC, 20pins.")
+     (Value "FH12A-20S-0.5SH")
+     ("1ST PART FIELD" "Hirose Electric"))))
+  (component CON10
+   (place X1
+    (property 
+     (timestamp 00EA40A9)
+     ("Source Package" CON10)
+     ("2ND PART FIELD" "0.5mm Pitch Connectors for FPC/FFC, 10pins.")
+     (Value "FH12-10S-0.5SH")
+     ("1ST PART FIELD" "Hirose Electric")))
+   (place X8
+    (property 
+     (timestamp 00F52B8E)
+     ("Source Package" CON10)
+     ("2ND PART FIELD" "0.5mm Pitch Connectors for FPC/FFC, 10pins.")
+     (Value "FH12A-10S-0.5SH")
+     ("1ST PART FIELD" "Hirose Electric"))))
+  (component R
+   (place R57
+    (property 
+     (timestamp 00EF1C94)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J272T1LF Chip Thick Film Resistor 0.1W,2.7K,Tol.5%,Case 0603")
+     (Value 2.7K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R25
+    (property 
+     (timestamp 00E639E4)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603")
+     (Value 330)
+     ("1ST PART FIELD" ROHM)))
+   (place R58
+    (property 
+     (timestamp 00EF1D0E)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R26
+    (property 
+     (timestamp 00E63852)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J393T1LF Chip Thick Film Resistor 0.1W,39K,Tol.5%,Case 0603")
+     (Value 39K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R59
+    (property 
+     ("PART NUMBER" 1033)
+     (timestamp 00F784F3)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0805J621T1LF Chip Thick Film Resistor 0.125W,620ohm,Tol.5%,Case  0805")
+     (Value 620)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R27
+    (property 
+     (timestamp 00E63862)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J272T1LF Chip Thick Film Resistor 0.1W,2.7K,Tol.5%,Case 0603")
+     (Value 2.7K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R28
+    (property 
+     (timestamp 00E638E0)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R29
+    (property 
+     (timestamp 00EED03D)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R60
+    (property 
+     ("PART NUMBER" 1033)
+     (timestamp 00F77961)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0805J621T1LF Chip Thick Film Resistor 0.125W,620ohm,Tol.5%,Case  0805")
+     (Value 620)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R61
+    (property 
+     (timestamp 003747CB)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J222T1LF Chip Thick Film Resistor 0.1W,2.2K,Tol.5%,Case 0603")
+     (Value 2.2K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R30
+    (property 
+     (timestamp 00EED051)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R62
+    (property 
+     (timestamp 00352497)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R1
+    (property 
+     (timestamp 00FCF0DC)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R31
+    (property 
+     (timestamp 00EED169)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603")
+     (Value 330)
+     ("1ST PART FIELD" ROHM)))
+   (place R63
+    (property 
+     (timestamp 00FC7330)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR10EZHJ121 SMD Thick Film Resistor 0.125W Tol.5% Case 0805")
+     (Value 120)
+     ("1ST PART FIELD" ROHM)))
+   (place R2
+    (property 
+     ("PART NUMBER" W1089)
+     (timestamp 00F277A7)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J433T1LF, 1/10W,43K,Tol.5%,Case 0603")
+     (Value 43K)
+     ("1ST PART FIELD" "Chip Tech")))
+   (place R32
+    (property 
+     (timestamp 00EECFD3)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J393T1LF Chip Thick Film Resistor 0.1W,39K,Tol.5%,Case 0603")
+     (Value 39K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R3
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00F1C462)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR10EZPJ513 SMD Thick Film Resistor 0.125W,51K,Tol.5%,Case 0805")
+     (Value 51K)
+     ("1ST PART FIELD" ROHM)))
+   (place R64
+    (property 
+     ("PART NUMBER" R1099)
+     (timestamp 00EEC227)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03EZPFX27R0, 27R 1/10W,Tol.5%,Case 0603")
+     (Value 22)
+     ("1ST PART FIELD" ROHM)))
+   (place R65
+    (property 
+     ("PART NUMBER" 1060)
+     (timestamp 00EC217B)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR10EZHJ103 SMD Thick Film Resistor 0.125W,10K,Tol.5%,Case 0805")
+     (Value 10K)
+     ("1ST PART FIELD" ROHM)))
+   (place R4
+    (property 
+     (timestamp 00350816)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R33
+    (property 
+     (timestamp 00EECFEB)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J272T1LF Chip Thick Film Resistor 0.1W,2.7K,Tol.5%,Case 0603")
+     (Value 2.7K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R34
+    (property 
+     (timestamp 00EED069)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R66
+    (property 
+     ("PART NUMBER" M1023)
+     (timestamp 00EC6FFD)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR10EZHJ103 SMD Thick Film Resistor 0.125W,100K,Tol.5%,Case 0805")
+     (Value 100K)
+     ("1ST PART FIELD" ROHM)))
+   (place R5
+    (property 
+     (timestamp 0034FCCD)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R67
+    (property 
+     (timestamp 00ED20DC)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J222T1LF Chip Thick Film Resistor 0.1W,2.2K,Tol.5%,Case 0603")
+     (Value 2.2K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R6
+    (property 
+     (timestamp 00F4222A)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R35
+    (property 
+     (timestamp 00EEF953)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R68
+    (property 
+     (timestamp 00ED20A4)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R36
+    (property 
+     (timestamp 00EEF96F)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R7
+    (property 
+     (timestamp 00350BE6)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R69
+    (property 
+     (timestamp 00FC8BFB)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR10EZHJ121 SMD Thick Film Resistor 0.125W Tol.5% Case 0805")
+     (Value 120)
+     ("1ST PART FIELD" ROHM)))
+   (place R37
+    (property 
+     (timestamp 00EEFA7F)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603")
+     (Value 330)
+     ("1ST PART FIELD" ROHM)))
+   (place R8
+    (property 
+     (timestamp 00E5A8C0)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603")
+     (Value 330)
+     ("1ST PART FIELD" ROHM)))
+   (place R9
+    (property 
+     (timestamp 00E5A2DC)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603")
+     (Value 330)
+     ("1ST PART FIELD" ROHM)))
+   (place R38
+    (property 
+     (timestamp 00EEF8F1)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J393T1LF Chip Thick Film Resistor 0.1W,39K,Tol.5%,Case 0603")
+     (Value 39K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R39
+    (property 
+     (timestamp 00EEF901)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J272T1LF Chip Thick Film Resistor 0.1W,2.7K,Tol.5%,Case 0603")
+     (Value 2.7K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R70
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00F1C424)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR10EZPJ513 SMD Thick Film Resistor 0.125W,51K,Tol.5%,Case 0805")
+     (Value 51K)
+     ("1ST PART FIELD" ROHM)))
+   (place R71
+    (property 
+     ("PART NUMBER" 1060)
+     (timestamp 00EC7D31)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR10EZHJ103 SMD Thick Film Resistor 0.125W,10K,Tol.5%,Case 0805")
+     (Value 10K)
+     ("1ST PART FIELD" ROHM)))
+   (place R40
+    (property 
+     (timestamp 00EEF97F)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R72
+    (property 
+     ("PART NUMBER" M1023)
+     (timestamp 00EC7CE9)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR10EZHJ103 SMD Thick Film Resistor 0.125W,100K,Tol.5%,Case 0805")
+     (Value 100K)
+     ("1ST PART FIELD" ROHM)))
+   (place R73
+    (property 
+     (timestamp 00ED2657)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J222T1LF Chip Thick Film Resistor 0.1W,2.2K,Tol.5%,Case 0603")
+     (Value 2.2K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R41
+    (property 
+     (timestamp 00EF1B28)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R74
+    (property 
+     (timestamp 00ED261F)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R10
+    (property 
+     (timestamp 00F375F5)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R42
+    (property 
+     (timestamp 00EF1B3C)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R11
+    (property 
+     (timestamp 00F37389)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R43
+    (property 
+     (timestamp 00EF1C54)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603")
+     (Value 330)
+     ("1ST PART FIELD" ROHM)))
+   (place R75
+    (property 
+     (timestamp 00FC9A2F)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR10EZHJ121 SMD Thick Film Resistor 0.125W Tol.5% Case 0805")
+     (Value 120)
+     ("1ST PART FIELD" ROHM)))
+   (place R12
+    (property 
+     (timestamp 00F3BF30)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603")
+     (Value 330)
+     ("1ST PART FIELD" ROHM)))
+   (place R76
+    (property 
+     ("PART NUMBER" 1033)
+     (timestamp 00FD5907)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0805J621T1LF Chip Thick Film Resistor 0.125W,620ohm,Tol.5%,Case  0805")
+     (Value 620)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R44
+    (property 
+     (timestamp 00EF1ABE)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J393T1LF Chip Thick Film Resistor 0.1W,39K,Tol.5%,Case 0603")
+     (Value 39K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R45
+    (property 
+     (timestamp 00EF1AD6)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J272T1LF Chip Thick Film Resistor 0.1W,2.7K,Tol.5%,Case 0603")
+     (Value 2.7K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R13
+    (property 
+     ("PART NUMBER" R1099)
+     (timestamp 00EBD1E8)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03EZPFX27R0, 27R 1/10W,Tol.5%,Case 0603")
+     (Value 27)
+     ("1ST PART FIELD" ROHM)))
+   (place R14
+    (property 
+     ("PART NUMBER" R1099)
+     (timestamp 00EBD3E8)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03EZPFX27R0, 27R 1/10W,Tol.5%,Case 0603")
+     (Value 27)
+     ("1ST PART FIELD" ROHM)))
+   (place R46
+    (property 
+     (timestamp 00EF1B54)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R15
+    (property 
+     (timestamp 00EB0A88)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR10EZHJ121 SMD Thick Film Resistor 0.125W Tol.5% Case 0805")
+     (Value 120)
+     ("1ST PART FIELD" ROHM)))
+   (place R47
+    (property 
+     (timestamp 00EF196E)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R16
+    (property 
+     ("PART NUMBER" 1033)
+     (timestamp 00EA9151)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0805J621T1LF Chip Thick Film Resistor 0.125W,620ohm,Tol.5%,Case  0805")
+     (Value 620)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R48
+    (property 
+     (timestamp 00EF198A)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R17
+    (property 
+     ("PART NUMBER" 1033)
+     (timestamp 00EA8D89)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0805J621T1LF Chip Thick Film Resistor 0.125W,620ohm,Tol.5%,Case  0805")
+     (Value 620)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R49
+    (property 
+     (timestamp 00EF1A9A)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603")
+     (Value 330)
+     ("1ST PART FIELD" ROHM)))
+   (place R18
+    (property 
+     (timestamp 00EE310A)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R19
+    (property 
+     (timestamp 00EE311A)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R50
+    (property 
+     (timestamp 00EF190C)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J393T1LF Chip Thick Film Resistor 0.1W,39K,Tol.5%,Case 0603")
+     (Value 39K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R51
+    (property 
+     (timestamp 00EF191C)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J272T1LF Chip Thick Film Resistor 0.1W,2.7K,Tol.5%,Case 0603")
+     (Value 2.7K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R20
+    (property 
+     (timestamp 00E63F0D)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R52
+    (property 
+     (timestamp 00EF199A)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J223T1LF Chip Thick Film Resistor 0.1W,22K,Tol.5%,Case 0603")
+     (Value 22K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R21
+    (property 
+     (timestamp 00E63F31)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R53
+    (property 
+     (timestamp 00EF1CEA)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R54
+    (property 
+     (timestamp 00EF1CFE)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R22
+    (property 
+     ("PART NUMBER" 1033)
+     (timestamp 00FD45DB)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0805J621T1LF Chip Thick Film Resistor 0.125W,620ohm,Tol.5%,Case  0805")
+     (Value 620)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R23
+    (property 
+     (timestamp 00E638BC)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R55
+    (property 
+     (timestamp 00EF1E0E)
+     ("Source Package" R)
+     ("2ND PART FIELD" "MCR03ERTJ331, Chip Thick Film Resistor 0.1W,330ohm,Tol.5%,Case 0603")
+     (Value 330)
+     ("1ST PART FIELD" ROHM)))
+   (place R56
+    (property 
+     (timestamp 00EF1C80)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J393T1LF Chip Thick Film Resistor 0.1W,39K,Tol.5%,Case 0603")
+     (Value 39K)
+     ("1ST PART FIELD" "Chip Technologies")))
+   (place R24
+    (property 
+     (timestamp 00E638D0)
+     ("Source Package" R)
+     ("2ND PART FIELD" "CR0603J103T1LF Chip Thick Film Resistor 0.1W,10K,Tol.5%,Case 0603")
+     (Value 10K)
+     ("1ST PART FIELD" "Chip Technologies"))))
+  (component "NPN BEC"
+   (place VT3
+    (property 
+     ("PART NUMBER" 602)
+     (timestamp 00FD8C9F)
+     ("Source Package" "NPN BEC")
+     ("2ND PART FIELD" "SMD Small-Signal NPN Transistor,SOT-23")
+     (Value MMBT4401LT1G)
+     ("1ST PART FIELD" "ON Semiconductor")))
+   (place VT4
+    (property 
+     ("PART NUMBER" 602)
+     (timestamp 00FD9AF5)
+     ("Source Package" "NPN BEC")
+     ("2ND PART FIELD" "SMD Small-Signal NPN Transistor,SOT-23")
+     (Value MMBT4401LT1G)
+     ("1ST PART FIELD" "ON Semiconductor")))
+   (place VT5
+    (property 
+     ("PART NUMBER" 602)
+     (timestamp 00FD9EA1)
+     ("Source Package" "NPN BEC")
+     ("2ND PART FIELD" "SMD Small-Signal NPN Transistor,SOT-23")
+     (Value MMBT4401LT1G)
+     ("1ST PART FIELD" "ON Semiconductor")))))
+ (library
+  (image R
+   (property 
+    (sourcelib C:\\ORCADWIN\\CAPTURE\\DESIGN\\FL01\\FL01_542.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "NPN BEC_0"
+   (property 
+    (sourcelib C:\\ORCADWIN\\CAPTURE\\DESIGN\\SM02_4\\SM0251100V0.DSN))
+   (pin 999 B
+    (property 
+     (pinname B)
+     (pintype 0)))
+   (pin 999 E
+    (property 
+     (pinname E)
+     (pintype 4)))
+   (pin 999 C
+    (property 
+     (pinname C)
+     (pintype 4))))
+  (image "CAP NP"
+   (property 
+    (sourcelib C:\\ORCADWIN\\CAPTURE\\DESIGN\\FL01\\FL01_59.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "NPN BEC"
+   (property 
+    (sourcelib C:\\ORCADWIN\\CAPTURE\\DESIGN\\FL01\\FL01_57.OLB))
+   (pin 999 B
+    (property 
+     (pinname B)
+     (pintype 0)))
+   (pin 999 E
+    (property 
+     (pinname E)
+     (pintype 4)))
+   (pin 999 C
+    (property 
+     (pinname C)
+     (pintype 4))))
+  (image CON10
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_16.0\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4))))
+  (image CON3
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4))))
+  (image CON2
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image CON8A
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\ORCAD_16.0\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4))))
+  (image CON4
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\ORCAD_16.0\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4))))
+  (image OPB610_1
+   (property 
+    (sourcelib M:\\GOLUBEV\\FL8552000V3\\FL8552000V3.DSN))
+   (pin 999 A
+    (property 
+     (pinname A)
+     (pintype 4)))
+   (pin 999 K
+    (property 
+     (pinname K)
+     (pintype 4)))
+   (pin 999 C
+    (property 
+     (pinname C)
+     (pintype 4)))
+   (pin 999 E
+    (property 
+     (pinname E)
+     (pintype 4))))
+  (image CON20
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\ORCAD_16.0\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname 16)
+     (pintype 4)))
+   (pin 999 17
+    (property 
+     (pinname 17)
+     (pintype 4)))
+   (pin 999 18
+    (property 
+     (pinname 18)
+     (pintype 4)))
+   (pin 999 19
+    (property 
+     (pinname 19)
+     (pintype 4)))
+   (pin 999 20
+    (property 
+     (pinname 20)
+     (pintype 4))))
+  (image "CONN FLEX 30"
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname 16)
+     (pintype 4)))
+   (pin 999 17
+    (property 
+     (pinname 17)
+     (pintype 4)))
+   (pin 999 18
+    (property 
+     (pinname 18)
+     (pintype 4)))
+   (pin 999 19
+    (property 
+     (pinname 19)
+     (pintype 4)))
+   (pin 999 20
+    (property 
+     (pinname 20)
+     (pintype 4)))
+   (pin 999 21
+    (property 
+     (pinname 21)
+     (pintype 4)))
+   (pin 999 22
+    (property 
+     (pinname 22)
+     (pintype 4)))
+   (pin 999 23
+    (property 
+     (pinname 23)
+     (pintype 4)))
+   (pin 999 24
+    (property 
+     (pinname 24)
+     (pintype 4)))
+   (pin 999 25
+    (property 
+     (pinname 25)
+     (pintype 4)))
+   (pin 999 26
+    (property 
+     (pinname 26)
+     (pintype 4)))
+   (pin 999 27
+    (property 
+     (pinname 27)
+     (pintype 4)))
+   (pin 999 28
+    (property 
+     (pinname 28)
+     (pintype 4)))
+   (pin 999 29
+    (property 
+     (pinname 29)
+     (pintype 4)))
+   (pin 999 30
+    (property 
+     (pinname 30)
+     (pintype 4))))
+  (image OPB610_0
+   (property 
+    (sourcelib H:\\WORKAEN\\APD03\\HWAPD04_LASTVERSION\\APD0400200V2\\APD0400200V2.DSN))
+   (pin 999 1
+    (property 
+     (pinname A)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname K)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname C)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname E)
+     (pintype 4))))
+  (image "CAPACITOR POL"
+   (property 
+    (sourcelib C:\\ORCADWIN\\CAPTURE\\DESIGN\\FL01\\FL01_59.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image CRYSTAL_7
+   (property 
+    (sourcelib "E:\\WORK\\ADAPTAR_XXPROTOCOL-CCNET\\DSN\\ADAPTER CCNET-THE_REST.DSN"))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4))))
+  (image "CAPACITOR NON-POL"
+   (property 
+    (sourcelib C:\\ORCADWIN\\CAPTURE\\LIBRARY\\DEVICE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "CAPACITOR FEED"
+   (property 
+    (sourcelib C:\\ORCADWIN\\CAPTURE\\DESIGN\\FL01\\FL01_59.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4))))
+  (image "STM32F051C4T6-LQFP48_10"
+   (property 
+    (sourcelib H:\\WORKAEN\\APD03\\HWAPD04_LASTVERSION\\APD0400200V2\\APD0400200V2.DSN))
+   (pin 999 1
+    (property 
+     (pinname VBAT)
+     (pintype 1)))
+   (pin 999 2
+    (property 
+     (pinname PC13)
+     (pintype 1)))
+   (pin 999 3
+    (property 
+     (pinname PC14)
+     (pintype 1)))
+   (pin 999 4
+    (property 
+     (pinname PC15)
+     (pintype 1)))
+   (pin 999 5
+    (property 
+     (pinname PF0/OSC_IN)
+     (pintype 1)))
+   (pin 999 6
+    (property 
+     (pinname PF1/OSC_OUT)
+     (pintype 1)))
+   (pin 999 7
+    (property 
+     (pinname NRST)
+     (pintype 1)))
+   (pin 999 8
+    (property 
+     (pinname PC0/ADC_IN10)
+     (pintype 1)))
+   (pin 999 9
+    (property 
+     (pinname PC1/ADC_IN11)
+     (pintype 1)))
+   (pin 999 10
+    (property 
+     (pinname PC2/ADC_IN12)
+     (pintype 1)))
+   (pin 999 11
+    (property 
+     (pinname PC3/ADC_IN13)
+     (pintype 1)))
+   (pin 999 12
+    (property 
+     (pinname GNDA)
+     (pintype 1)))
+   (pin 999 13
+    (property 
+     (pinname VDDA)
+     (pintype 1)))
+   (pin 999 15
+    (property 
+     (pinname PA1/ADC_IN1)
+     (pintype 1)))
+   (pin 999 16
+    (property 
+     (pinname PA2/ADC_IN2)
+     (pintype 1)))
+   (pin 999 14
+    (property 
+     (pinname PA0/ADC_IN0)
+     (pintype 1)))
+   (pin 999 20
+    (property 
+     (pinname PA4/ADC_IN4/DAC_OUT1)
+     (pintype 1)))
+   (pin 999 19
+    (property 
+     (pinname VDD1)
+     (pintype 1)))
+   (pin 999 23
+    (property 
+     (pinname PA7/ADC_IN7/TIM3_CH2)
+     (pintype 1)))
+   (pin 999 24
+    (property 
+     (pinname PC4/ADC_IN14/USART3_TX)
+     (pintype 1)))
+   (pin 999 18
+    (property 
+     (pinname GND1)
+     (pintype 1)))
+   (pin 999 21
+    (property 
+     (pinname PA5/ADC_IN5/DAC_OUT2)
+     (pintype 1)))
+   (pin 999 17
+    (property 
+     (pinname PA3/ADC_IN3)
+     (pintype 1)))
+   (pin 999 22
+    (property 
+     (pinname PA6/ADC_IN6/TIM2_CH1)
+     (pintype 1)))
+   (pin 999 26
+    (property 
+     (pinname PB0/ADC_IN8/TIM3_CH3)
+     (pintype 1)))
+   (pin 999 27
+    (property 
+     (pinname PB1/ADC_IN9/TIM3_CH4)
+     (pintype 1)))
+   (pin 999 25
+    (property 
+     (pinname PC5/ADC_IN15/USART3_RX)
+     (pintype 1)))
+   (pin 999 28
+    (property 
+     (pinname PB2)
+     (pintype 1)))
+   (pin 999 32
+    (property 
+     (pinname VDD2)
+     (pintype 1)))
+   (pin 999 30
+    (property 
+     (pinname PB11/USART3_RX/TIM2_CH4)
+     (pintype 1)))
+   (pin 999 31
+    (property 
+     (pinname GND2)
+     (pintype 1)))
+   (pin 999 29
+    (property 
+     (pinname PB10/USART3_TX/TIM2_CH3)
+     (pintype 1)))
+   (pin 999 39
+    (property 
+     (pinname TIM3_CH3/PC8)
+     (pintype 1)))
+   (pin 999 37
+    (property 
+     (pinname TIM3_CH1/PC6)
+     (pintype 1)))
+   (pin 999 36
+    (property 
+     (pinname PB15)
+     (pintype 1)))
+   (pin 999 35
+    (property 
+     (pinname PB14)
+     (pintype 1)))
+   (pin 999 33
+    (property 
+     (pinname PB12)
+     (pintype 1)))
+   (pin 999 38
+    (property 
+     (pinname TIM3_CH2/PC7)
+     (pintype 1)))
+   (pin 999 34
+    (property 
+     (pinname PB13)
+     (pintype 1)))
+   (pin 999 40
+    (property 
+     (pinname TIM3_CH4/PC9)
+     (pintype 1)))
+   (pin 999 41
+    (property 
+     (pinname TIM1_CH1/PA8)
+     (pintype 1)))
+   (pin 999 45
+    (property 
+     (pinname PA12)
+     (pintype 1)))
+   (pin 999 42
+    (property 
+     (pinname TIM1_CH2/PA9)
+     (pintype 1)))
+   (pin 999 47
+    (property 
+     (pinname GND3)
+     (pintype 1)))
+   (pin 999 48
+    (property 
+     (pinname VDD3)
+     (pintype 1)))
+   (pin 999 46
+    (property 
+     (pinname SWDIO/PA13)
+     (pintype 1)))
+   (pin 999 43
+    (property 
+     (pinname TIM1_CH3/PA10)
+     (pintype 1)))
+   (pin 999 44
+    (property 
+     (pinname TIM1_CH4/PA11)
+     (pintype 1)))
+   (pin 999 49
+    (property 
+     (pinname SWCLK/PA14)
+     (pintype 1)))
+   (pin 999 50
+    (property 
+     (pinname PA15)
+     (pintype 1)))
+   (pin 999 51
+    (property 
+     (pinname USART4_TX/USART3_TX/PC10)
+     (pintype 1)))
+   (pin 999 52
+    (property 
+     (pinname USART4_RX/USART3_RX/PC11)
+     (pintype 1)))
+   (pin 999 53
+    (property 
+     (pinname PC12)
+     (pintype 1)))
+   (pin 999 54
+    (property 
+     (pinname PD2)
+     (pintype 1)))
+   (pin 999 55
+    (property 
+     (pinname TIM2_CH2/PB3)
+     (pintype 1)))
+   (pin 999 56
+    (property 
+     (pinname TIM3_CH1/PB4)
+     (pintype 1)))
+   (pin 999 57
+    (property 
+     (pinname TIM3_CH2/PB5)
+     (pintype 1)))
+   (pin 999 58
+    (property 
+     (pinname USART1_TX/PB6)
+     (pintype 1)))
+   (pin 999 59
+    (property 
+     (pinname USART1_RX/PB7)
+     (pintype 1)))
+   (pin 999 60
+    (property 
+     (pinname BOOT0)
+     (pintype 1)))
+   (pin 999 61
+    (property 
+     (pinname TIM16_CH1/PB8)
+     (pintype 1)))
+   (pin 999 62
+    (property 
+     (pinname TIM17_CH1/PB9)
+     (pintype 1)))
+   (pin 999 63
+    (property 
+     (pinname GND4)
+     (pintype 1)))
+   (pin 999 64
+    (property 
+     (pinname VDD4)
+     (pintype 1))))
+  (image ADM485_0
+   (property 
+    (sourcelib "D:\\PROJECT\\FL-85\\PS_RSRCH\\DSN\\FL8551321_SIPEX\\FL8551321V0.DSN"))
+   (pin 999 5
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname A)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname B)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname DE)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname RE)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname RO)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname DI)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname VCC)
+     (pintype 4))))
+  (image LM358_3
+   (property 
+    (sourcelib C:\\ORCAD_DATA\\AP\\HW_APD04\\APD0400200\\APD0400200V0.DSN))
+   (pin 999 3
+    (property 
+     (pinname +IN_A)
+     (pintype 0)))
+   (pin 999 2
+    (property 
+     (pinname "-IN_A")
+     (pintype 0)))
+   (pin 999 1
+    (property 
+     (pinname OUT_A)
+     (pintype 2)))
+   (pin 999 8
+    (property 
+     (pinname VCC)
+     (pintype 7)))
+   (pin 999 4
+    (property 
+     (pinname GND_A)
+     (pintype 7)))
+   (pin 999 5
+    (property 
+     (pinname +IN_B)
+     (pintype 0)))
+   (pin 999 6
+    (property 
+     (pinname "-IN_B")
+     (pintype 0)))
+   (pin 999 7
+    (property 
+     (pinname OUT_B)
+     (pintype 2)))
+   (pin 999 GND
+    (property 
+     (pinname GND_B)
+     (pintype 7))))
+  (image LED
+   (property 
+    (sourcelib C:\\ORCADWIN\\CAPTURE\\LIBRARY\\DEVICE.OLB))
+   (pin 999 ANODE
+    (property 
+     (pinname ANODE)
+     (pintype 4)))
+   (pin 999 CATHODE
+    (property 
+     (pinname CATHODE)
+     (pintype 4))))
+  (image BD6210_0
+   (property 
+    (sourcelib "D:\\PROJECT\\ORCAD\\APD0100750\\APD0100750V1-16.DSN"))
+   (pin 999 6
+    (property 
+     (pinname VREF)
+     (pintype 0)))
+   (pin 999 4
+    (property 
+     (pinname FIN)
+     (pintype 0)))
+   (pin 999 5
+    (property 
+     (pinname RIN)
+     (pintype 0)))
+   (pin 999 3
+    (property 
+     (pinname VCC)
+     (pintype 7)))
+   (pin 999 2
+    (property 
+     (pinname VCC)
+     (pintype 7)))
+   (pin 999 8
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 1
+    (property 
+     (pinname OUT1)
+     (pintype 2)))
+   (pin 999 7
+    (property 
+     (pinname OUT2)
+     (pintype 2)))))
+ (network
+  (net N29173
+   (pins
+     VT3-B R61-2 R62-2))
+  (net "DROP2-DAC"
+   (pins
+     DD1-21 R67-1 DA7-1 DA7-2 X9-20))
+  (net "DROP3-DAC"
+   (pins
+     DD1-26 X9-21 R73-1 DA7-7 DA7-6))
+  (net "FILL-CAP"
+   (pins
+     X10-21))
+  (net "RS485-DE"
+   (pins
+     DD1-4 X10-26 DD2-3))
+  (net "RS485-RE"
+   (pins
+     DD1-3 X10-27 DD2-2))
+  (net N493457
+   (pins
+     VD1-CATHODE VT3-C))
+  (net N15087896
+   (pins
+     C14-2 DA1-6 R25-2 R26-1))
+  (net N15650969
+   (pins
+     R31-2 R32-1 C19-2 DA2-6))
+  (net N15650933
+   (pins
+     DA2-5 C18-1 R30-1 R29-2 DA2-3))
+  (net N15087788
+   (pins
+     R27-2 DA1-2 C17-2 R28-2))
+  (net N15650845
+   (pins
+     R33-2 R34-2 DA2-2 C22-2))
+  (net N15087860
+   (pins
+     C13-1 DA1-5 R23-2 R24-1 DA1-3))
+  (net N15730719
+   (pins
+     DD1-6 BQ1-3))
+  (net N156507950
+   (pins
+     R33-1 C20-1))
+  (net N150877140
+   (pins
+     R27-1 C15-1))
+  (net "DROP-AC2"
+   (pins
+     X9-8 C22-1 R34-1 DA2-1 DD1-10))
+  (net "DROP-IN2"
+   (pins
+     R31-1 X7-3))
+  (net "DROP-IN4"
+   (pins
+     X7-5 R43-1))
+  (net "DROP-DC2"
+   (pins
+     DA2-7 C20-2 R32-2 C19-1 X9-14 DD1-11))
+  (net "DROP-DC3"
+   (pins
+     X9-15 DD1-15 C24-1 DA3-7 C25-2 R38-2))
+  (net "DROP-DC1"
+   (pins
+     R26-2 C14-1 C15-2 DA1-7 DD1-9 X9-13))
+  (net "DROP-AC3"
+   (pins
+     DA3-1 C27-1 R40-1 X9-9 DD1-14))
+  (net "DROP-AC1"
+   (pins
+     X9-7 DA1-1 C17-1 R28-1 DD1-8))
+  (net "DROP-IN3"
+   (pins
+     X7-4 R37-1))
+  (net "DROP-IN1"
+   (pins
+     X7-2 R25-1))
+  (net "DROP-DC6"
+   (pins
+     X9-18 C37-1 C38-2 DA6-7 R56-2 DD1-25))
+  (net "DROP-IN6"
+   (pins
+     R55-1 X7-7))
+  (net "DROP-DC4"
+   (pins
+     X9-16 DD1-17 DA4-7 C30-2 R44-2 C29-1))
+  (net "DROP-DC5"
+   (pins
+     X9-17 R50-2 C33-2 DA5-7 C32-1 DD1-23))
+  (net "DROP-AC6"
+   (pins
+     DA6-1 C40-1 R58-1 X9-12 DD1-24))
+  (net N15475075
+   (pins
+     R66-1 R65-2 C41-1))
+  (net "DROP-IN5"
+   (pins
+     R49-1 X7-6))
+  (net "DROP-AC4"
+   (pins
+     X9-10 C48-1 R46-1 DA4-1 DD1-16))
+  (net N15114147
+   (pins
+     BQ1-1 DD1-5))
+  (net "DROP-AC5"
+   (pins
+     DD1-22 C35-1 R52-1 DA5-1 X9-11))
+  (net "DROP-DAC"
+   (pins
+     DD1-20))
+  (net "USART1-TX"
+   (pins
+     DD2-4 R13-2 X10-22 DD1-58))
+  (net "USART1-RX"
+   (pins
+     R14-2 DD1-59 X10-23 DD2-1))
+  (net SWDIO
+   (pins
+     X10-3 DD1-46 X5-5 R70-2 X9-3))
+  (net "OPT-ON"
+   (pins
+     VT2-B DD1-2 X10-20 VT1-B))
+  (net "CAR-HOME-L"
+   (pins
+     DD1-33 X10-7 R4-2 VE1-E))
+  (net N15476317
+   (pins
+     DA7-3 C42-1 R66-2))
+  (net "LEVER-STEP"
+   (pins
+     R7-2 VE3-E DD1-36 X10-10))
+  (net "LEVER-HOME"
+   (pins
+     R5-2 VE2-E X10-9 DD1-35))
+  (net +3V3
+    (property 
+     (nettype S))
+   (pins
+     X5-1 R3-2 Z1-2 X8-6 R1-1 C1-1 X10-6 X10-29 X9-6
+     X9-29))
+  (net BOOT0
+   (pins
+     X10-4 R2-2 X5-2 DD1-60 X9-4))
+  (net "DROP3-PWM"
+   (pins
+     R71-1 DD1-42 X9-23))
+  (net "DROP1-DAC"
+   (pins
+     R61-1 X9-19))
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     R36-2 R62-1 R63-2 R21-2 DA1-GND R48-2 DA3-GND R30-2 R54-2
+     R20-2 DA2-GND DA4-GND R42-2 VT1-E R24-2 R74-1 R68-1 DA6-GND
+     R75-2 VT2-E C9-2 DA5-GND R69-2 DA7-GND X7-15 X7-11 X7-13
+     X7-10 X7-9 C6-2 X1-6 C21-1 C1-2 C47-1 C18-2 C28-2
+     C45-2 R60-2 X4-2 C11-2 X1-10 X8-10 DA5-4 R18-2 X1-3
+     C44-2 X8-9 DA1-4 BQ1-2 R70-1 X8-5 C43-1 DA7-4 C39-1
+     C7-2 C36-2 C8-2 X8-2 DA2-4 DA4-4 R11-2 R10-2 C12-2
+     C41-2 DA6-4 C10-2 C26-1 R16-2 X7-20 R19-2 R2-1 X5-7
+     X9-30 X9-5 C23-2 X10-5 X10-30 R17-2 C46-2 C42-2 DD1-63
+     C4-2 C5-2 C3-2 C2-2 DD1-47 DD1-18 DD1-31 DD1-12 C34-1
+     DD2-5 R59-2 C31-2 R6-2 C16-1 Z1-3 DA8-8 X2-3 DA3-4
+     C49-1 C13-2 R7-1 X7-17 R5-1 X3-3 DA9-8 R4-1))
+  (net "DROP2-PWM"
+   (pins
+     DD1-41 X9-22 R65-1))
+  (net "PILL-CAP"
+   (pins
+     DD1-53 R64-2))
+  (net N15089305
+   (pins
+     X3-2 DA9-7))
+  (net N422037
+   (pins
+     VE3-A VE2-K))
+  (net SWCLK
+   (pins
+     X9-2 DD1-49 X10-2 X5-3 R3-1))
+  (net N541659
+   (pins
+     R63-1 VT3-E))
+  (net N15661451
+   (pins
+     DA3-5 DA3-3 R36-1 R35-2 C23-1))
+  (net N15661347
+   (pins
+     C27-2 R40-2 R39-2 DA3-2))
+  (net N15661487
+   (pins
+     R37-2 DA3-6 R38-1 C24-2))
+  (net N156613130
+   (pins
+     R39-1 C25-1))
+  (net N15498553
+   (pins
+     C45-1 R71-2 R72-1))
+  (net N15498569
+   (pins
+     DA7-5 C46-1 R72-2))
+  (net RXD
+   (pins
+     R15-1 R17-1 X1-7 R13-1 DD2-7 X10-25))
+  (net TXD
+   (pins
+     X10-24 X1-8 DD2-6 R15-2 R16-1 R14-1))
+  (net "USART3-TX"
+   (pins
+     X9-24 DD1-51 X8-3 R59-1))
+  (net "USART3-RX"
+   (pins
+     X9-25 DD1-52 X8-4 R60-1))
+  (net NRST
+   (pins
+     X10-1 R76-2 X9-1 X1-9))
+  (net N15670568
+   (pins
+     R55-2 R56-1 C37-2 DA6-6))
+  (net N15669706
+   (pins
+     C32-2 R49-2 R50-1 DA5-6))
+  (net N15670112
+   (pins
+     DA4-5 C28-1 R42-1 R41-2 DA4-3))
+  (net N15669670
+   (pins
+     C31-1 DA5-5 R47-2 R48-1 DA5-3))
+  (net N15670554
+   (pins
+     DA6-5 C36-1 R54-1 R53-2 DA6-3))
+  (net N15912403
+   (pins
+     VD2-CATHODE VT4-C))
+  (net "SCAN-ON"
+   (pins
+     DD1-45 X8-1))
+  (net N15670024
+   (pins
+     R45-2 R46-2 DA4-2 C48-2))
+  (net N15913109
+   (pins
+     VD3-CATHODE VT5-C))
+  (net N15670148
+   (pins
+     R43-2 R44-1 C29-2 DA4-6))
+  (net N15670450
+   (pins
+     DA6-2 R57-2 C40-2 R58-2))
+  (net N15669566
+   (pins
+     C35-2 R51-2 DA5-2 R52-2))
+  (net N156695320
+   (pins
+     C33-1 R51-1))
+  (net N156704200
+   (pins
+     C38-1 R57-1))
+  (net N156699740
+   (pins
+     C30-1 R45-1))
+  (net N406207
+   (pins
+     X4-1 R64-1))
+  (net N16600423
+   (pins
+     R22-2 X5-8))
+  (net MT2F
+   (pins
+     DA8-4 R18-1 X10-16 DD1-37))
+  (net MT2R
+   (pins
+     X10-17 DD1-38 DA8-5 R19-1))
+  (net MT3R
+   (pins
+     X10-19 DD1-40 R21-1 DA9-5))
+  (net N15745911
+   (pins
+     R22-1 R76-1 DD1-7 R1-2 C49-2))
+  (net MT3F
+   (pins
+     DA9-4 R20-1 X10-18 DD1-39))
+  (net N15540404
+   (pins
+     R67-2 VT4-B R68-2))
+  (net 5V
+    (property 
+     (nettype S))
+   (pins
+     C9-1 DA9-2 DA9-3 C12-1 C11-1 VE2-A X6-1 X1-2 C8-1
+     X1-1 VE1-A DA8-6 DA8-2 C10-1 DA8-3 DA9-6 X8-8 X8-7
+     X7-1 X7-8 VD1-ANODE C44-1 VD3-ANODE VD2-ANODE))
+  (net N15540432
+   (pins
+     R69-1 VT4-E))
+  (net N15541835
+   (pins
+     R75-1 VT5-E))
+  (net N15541807
+   (pins
+     R73-2 VT5-B R74-2))
+  (net N15089279
+   (pins
+     X3-1 DA9-1))
+  (net N15976018
+   (pins
+     R12-2 X6-2))
+  (net N159741762
+   (pins
+     VT2-C R12-1))
+  (net "STEP-SIN"
+   (pins
+     R11-1 X6-4 DD1-44 X10-15))
+  (net "STEP-COS"
+   (pins
+     X6-3 R10-1 DD1-43 X10-14))
+  (net N157736
+   (pins
+     VT1-C R9-1 R8-1))
+  (net N15996964
+   (pins
+     VE1-K VE4-1))
+  (net N15997681
+   (pins
+     VE4-2 R9-2))
+  (net "CAS-SENS"
+   (pins
+     VE4-4 R6-1 X10-8 DD1-34))
+  (net N15610010
+   (pins
+     X2-1 DA8-1))
+  (net N15114035
+   (pins
+     DD1-32 DD1-64 C4-1 C3-1 C2-1 C5-1 DD1-48 Z1-1 DD1-19
+     DD1-1 DD1-13))
+  (net N15610110
+   (pins
+     X2-2 DA8-7))
+  (net 3V3
+    (property 
+     (nettype S))
+   (pins
+     R47-1 R23-1 DA5-8 C34-2 X7-19 R29-1 DA1-8 C16-2 X7-18
+     R41-1 VE3-C VE2-C DA2-8 C21-2 C47-2 DA4-8 DA3-8 C26-2
+     X1-4 C7-1 X1-5 C39-2 DA6-8 C6-1 DD2-8 VE4-3 C43-2
+     DA7-8 VE1-C R35-1 R53-1))
+  (net N422230
+   (pins
+     R8-2 VE3-K))
+  (net "IMG-OUT"
+   (pins
+     DD1-27 X7-16 X10-13))
+  (net "IMG-CLK"
+   (pins
+     DD1-29 X7-12 X10-11))
+  (net "IMG-SI"
+   (pins
+     DD1-30 X7-14 X10-12)))
+)
+11 X7-12))
+  (net "IMG-SI"
+   (pins
+     X7-14 X10-12 DD1-30)))
+)

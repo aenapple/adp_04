@@ -1,0 +1,165 @@
+(PCB APD0400400V3
+ (description
+  (timeStamp "2015 06 16 02 38 04")
+  (program "CAPTURE.EXE" (Version "10.5.0.b001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "Carriage")
+  (date "Monday, June 15, 2015")
+  (document "APD04.00.400")
+  (revision "3")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component "CAP NP"
+   (place C2
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00F2CE40)
+     ("Source Package" "CAP NP")
+     ("2ND PART FIELD" "C0805C104M5RAC  SMD Ceramic Capacitor, X7R,50V,0.1uF,Tol.20%,Case 0805")
+     (Value 0.1)
+     ("1ST PART FIELD" Kemet))))
+  (component TSL1401
+   (place DA1
+    (property 
+     ("PCB Footprint" "DIP-8")
+     (timestamp 00F2CE60)
+     ("Source Package" TSL1401)
+     ("2ND PART FIELD" "TSL1401R-LF, 128x1 linear sensor array, DIP-8")
+     (Value TSL1401R)
+     ("1ST PART FIELD" TAOS))))
+  (component "CAPACITOR POL"
+   (place C1
+    (property 
+     ("PCB Footprint" "Case B")
+     (timestamp 00F2D036)
+     ("Source Package" "CAPACITOR POL")
+     ("2ND PART FIELD" "T491B685K010AT SMD Tantalum Capacitor,10V,6.8uF,Tol.10%,Case B")
+     (Value 6.8)
+     ("1ST PART FIELD" Kemet))))
+  (component CON10
+   (place X1
+    (property 
+     (timestamp 00F2CC2E)
+     ("Source Package" CON10)
+     ("2ND PART FIELD" "0.5mm Pitch Connectors for FPC/FFC, 10pins.")
+     (Value "FH12-10S-0.5SH")
+     ("1ST PART FIELD" "Hirose Electric")))))
+ (library
+  (image CON10
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_16.0\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4))))
+  (image "CAPACITOR POL"
+   (property 
+    (sourcelib C:\\ORCADWIN\\CAPTURE\\DESIGN\\FL01\\FL01_59.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "CAP NP"
+   (property 
+    (sourcelib C:\\ORCADWIN\\CAPTURE\\DESIGN\\FL01\\FL01_59.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image TSL1401
+   (property 
+    (sourcelib D:\\WORK\\ORCAD\\LIB\\OTHER.OLB))
+   (pin 999 1
+    (property 
+     (pinname SI)
+     (pintype 0)))
+   (pin 999 2
+    (property 
+     (pinname CLK2)
+     (pintype 0)))
+   (pin 999 3
+    (property 
+     (pinname AO)
+     (pintype 2)))
+   (pin 999 4
+    (property 
+     (pinname VDD)
+     (pintype 7)))
+   (pin 999 7
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 6
+    (property 
+     (pinname GND)
+     (pintype 7)))))
+ (network
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     X1-1 C2-2 C1-2 X1-10 X1-7 X1-5 DA1-7 DA1-6 X1-3))
+  (net +3V3
+   (pins
+     C2-1 X1-8 X1-9 C1-1 DA1-4))
+  (net "IMG-OUT"
+   (pins
+     X1-6 DA1-3))
+  (net "IMG-CLK"
+   (pins
+     X1-2 DA1-2))
+  (net "IMG-SI"
+   (pins
+     X1-4 DA1-1)))
+)

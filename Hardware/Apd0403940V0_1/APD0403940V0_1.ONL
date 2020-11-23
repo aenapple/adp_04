@@ -1,0 +1,165 @@
+(PCB APD0403940V0_1
+ (description
+  (timeStamp "2015 07 09 01 58 59")
+  (program "CAPTURE.EXE" (Version "10.5.0.b001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "Carriage")
+  (date "Wednesday, July 08, 2015")
+  (document "APD04.03.940")
+  (revision "0.1")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component 1N6264/TO_0
+   (place VD4
+    (property 
+     (timestamp 00F2C97F)
+     ("Source Package" 1N6264/TO_0)
+     ("2ND PART FIELD" "Surface-Mount Silicon Pin Photodiode.")
+     (Value QSB34GR)
+     ("1ST PART FIELD" Fairchild)))
+   (place VD5
+    (property 
+     (timestamp 00F2C999)
+     ("Source Package" 1N6264/TO_0)
+     ("2ND PART FIELD" "Surface-Mount Silicon Pin Photodiode.")
+     (Value QSB34GR)
+     ("1ST PART FIELD" Fairchild)))
+   (place VD6
+    (property 
+     (timestamp 00F2C9B3)
+     ("Source Package" 1N6264/TO_0)
+     ("2ND PART FIELD" "Surface-Mount Silicon Pin Photodiode.")
+     (Value QSB34GR)
+     ("1ST PART FIELD" Fairchild)))
+   (place VD1
+    (property 
+     (timestamp 00F2CD78)
+     ("Source Package" 1N6264/TO_0)
+     ("2ND PART FIELD" "Surface-Mount Silicon Pin Photodiode.")
+     (Value QSB34GR)
+     ("1ST PART FIELD" Fairchild)))
+   (place VD2
+    (property 
+     (timestamp 00F2C94B)
+     ("Source Package" 1N6264/TO_0)
+     ("2ND PART FIELD" "Surface-Mount Silicon Pin Photodiode.")
+     (Value QSB34GR)
+     ("1ST PART FIELD" Fairchild)))
+   (place VD3
+    (property 
+     (timestamp 00F2C965)
+     ("Source Package" 1N6264/TO_0)
+     ("2ND PART FIELD" "Surface-Mount Silicon Pin Photodiode.")
+     (Value QSB34GR)
+     ("1ST PART FIELD" Fairchild))))
+  (component CON10
+   (place X1
+    (property 
+     (timestamp 00F2CC2E)
+     ("Source Package" CON10)
+     ("2ND PART FIELD" "0.5mm Pitch Connectors for FPC/FFC, 10pins.")
+     (Value "FH12-10S-0.5SH")
+     ("1ST PART FIELD" "Hirose Electric")))))
+ (library
+  (image 1N6264/TO_0
+   (property 
+    (sourcelib H:\\WORKAEN\\APD03\\HWAPD04_LASTVERSION\\APD0403940V0\\APD0403940V0.DSN))
+   (pin 999 2
+    (property 
+     (pinname ANODE)
+     (pintype 4)
+     ("Pin Length" Short)))
+   (pin 999 1
+    (property 
+     (pinname CATHODE)
+     (pintype 4))))
+  (image CON10
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_16.0\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)))))
+ (network
+  (net N15911409
+   (pins
+     VD6-1 VD5-1 VD4-1 VD3-1 VD1-1 VD2-1 X1-1 X1-8))
+  (net N15911539
+   (pins
+     X1-2 VD6-2
+    (property 
+     ("Pin Length" Short))))
+  (net N15911560
+   (pins
+     VD5-2
+    (property 
+     ("Pin Length" Short))
+     X1-3))
+  (net N15911586
+   (pins
+     VD4-2
+    (property 
+     ("Pin Length" Short))
+     X1-4))
+  (net N15911615
+   (pins
+     VD3-2
+    (property 
+     ("Pin Length" Short))
+     X1-5))
+  (net N15911647
+   (pins
+     VD2-2
+    (property 
+     ("Pin Length" Short))
+     X1-6))
+  (net N15911682
+   (pins
+     VD1-2
+    (property 
+     ("Pin Length" Short))
+     X1-7)))
+)

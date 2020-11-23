@@ -1,0 +1,107 @@
+(PCB APD0403210V0
+ (description
+  (timeStamp "2015 06 21 23 47 48")
+  (program "CAPTURE.EXE" (Version "10.5.0.b001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "Carriage")
+  (date "Sunday, June 21, 2015")
+  (document "APD04.03.210")
+  (revision "0")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component CON4
+   (place X1
+    (property 
+     (timestamp 00F46686)
+     ("Source Package" CON4)
+     ("2ND PART FIELD" "KK@ Header, Vertical, Round Pin, 4 Circuits.")
+     (Value "10-08-1041")
+     ("1ST PART FIELD" Molex))))
+  (component BD6210_0
+   (place VE1
+    (property 
+     ("PCB Footprint" "SOP-8")
+     (timestamp 00F2CDB0)
+     ("Source Package" BD6210_0)
+     ("2ND PART FIELD" "Dual Channel Encoder")
+     (Value OPB822)
+     ("1ST PART FIELD" Optek)))))
+ (library
+  (image CON4
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\ORCAD_16.0\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4))))
+  (image BD6210_0
+   (property 
+    (sourcelib H:\\WORKAEN\\APD03\\HWAPD04_LASTVERSION\\APD0403210V0\\APD0403210V0.DSN))
+   (pin 999 6
+    (property 
+     (pinname K2)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname E2)
+     (pintype 6)))
+   (pin 999 5
+    (property 
+     (pinname A2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname C2)
+     (pintype 3)))
+   (pin 999 2
+    (property 
+     (pinname E1)
+     (pintype 6)))
+   (pin 999 8
+    (property 
+     (pinname K1)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname C1)
+     (pintype 3)))
+   (pin 999 7
+    (property 
+     (pinname A1)
+     (pintype 4)))))
+ (network
+  (net N16016938
+   (pins
+     X1-2 VE1-8))
+  (net N16016966
+   (pins
+     VE1-3 X1-1 VE1-5 VE1-1))
+  (net N16017263
+   (pins
+     VE1-6 VE1-7))
+  (net N16016960
+   (pins
+     VE1-2 X1-4))
+  (net N16016954
+   (pins
+     X1-3 VE1-4)))
+)
